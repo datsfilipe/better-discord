@@ -1,0 +1,163 @@
+// roles in server settings
+.roleName-2IkRdr {
+  z-index: 1
+}
+.item-PXvHYJ > .roleDot-ZwSovK::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: inherit;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+
+// red_button
+[class*="colorRed-"] {
+  border-color: var(--red)!important;
+  color: var(--red)!important;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+[class*="lookFilled-"] {
+  background-color: var(--purple)!important;
+  color: var(--dark-text)!important;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+  background-color: var(--red)!important;
+  color: var(--dark-text)!important;
+}
+
+// nitro svg
+[class*="nitroUpsellButtonWheel-"] {
+  path {
+    fill: var(--dark-text)!important;
+  }
+}
+// pick color svg
+div[class*="contents-"] svg[class*="dropperIcon-"] {
+  :nth-child(1) {
+    fill: transparent;
+  }
+  :nth-child(2) {
+    fill: var(--dark-text);
+  }
+}
+
+// selected custom color bg icon
+[class*="customSwatch-"] {
+  div {
+    :nth-child(2) {
+      path {
+        fill: var(--dark-text);
+      }
+    }
+    &:hover {
+      :nth-child(2) {
+        path {
+          fill: var(--dark-text)!important;
+        }
+      }
+    }
+  }
+}
+
+// color picker
+[class*="colorPickerCustom-"] {
+  border-radius: 15px;
+  background: var(--background)!important;
+  border-color: rgba(72, 60, 103, 0.2)!important;
+}
+
+// esc button
+[class*="container-"] {
+  [class*="closeButton-"] {
+    border-color: var(--pink);
+    svg {
+      path {
+        fill: var(--pink);
+      }
+    }
+    &:hover {
+      background-color: rgba(72, 60, 103, 0.2);
+    }
+  }
+  [class*="keybind-"] {
+    color: var(--pink);
+  }
+}
+
+// divider
+[class*="children-"] {
+  [class*="divider-"] {
+    border-top: thin solid var(--purple);
+    opacity: 0.1;
+  }
+}
+
+// icons in list
+.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+  background: var(--green);
+}
+
+// control buttons
+[class*="control-"] {
+  [class*="container-"] {
+    background-color: rgba(72, 60, 103, 0.6)!important;
+    svg {
+      rect {
+        fill: var(--background);
+      }
+    }
+  }
+}
+[class*="bd-switch-body"] {
+  background-color: rgba(72, 60, 103, 0.6)!important;
+    svg {
+      rect {
+        fill: var(--background);
+      }
+    }
+}
+
+// titles
+[class*="labelRow-"] {
+  [class*="title-"] {
+    color: var(--purple);
+  }
+}
+
+// connections
+[class*="connection-"] {
+  background-color: rgba(72, 60, 103, 0.2);
+  [class*="connectionHeader-"] {
+    background-color: rgba(72, 60, 103, 0.4);
+  }
+}
+
+// look outlined button
+button[class*="lookOutlined-"] {
+  border-color: var(--purple)!important;
+  color: var(--purple)!important;
+}
+
+// discriminator
+[class*="discriminator-"] {
+  color: var(--pink);
+}
+
+// copy id
+[id*="copy-id"] {
+  background-color: var(--purple-darker);
+  [class*="item-"] {
+    color: var(--foreground);
+    background-color: var(--purple-darker);
+    border-color: var(--background-darker);
+  }
+}
