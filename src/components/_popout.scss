@@ -1,0 +1,51 @@
+// ROLES
+.role-2irmRk{
+  background: transparent;
+  border: 1px solid;
+  border-radius: 11px;
+}
+.roleCircle-3xAZ1j {
+  margin-left: 0;
+}
+.addButton-pcyyf6.role-2irmRk {
+    border-color: #4f545c;
+}
+.addButtonIcon-1NMJ8u {
+    width: 10px;
+    height: 10px;
+}
+
+// popout
+[id*="popout_"] {
+  [class*="container-"] {
+    border-color: rgba(72, 60, 103, 0.6);
+    background-color: var(--background);
+    [class*="resultsGroup-"] {
+      color: var(--foreground);
+      [class*="selected-"] {
+        background: rgba(72, 60, 103, 0.2)!important;
+      }
+    }
+  }
+  ::after {
+    display: none;
+  }
+}
+
+// search
+[class*="queryContainer-"], [class*="focused-"] {
+  background: rgba(72, 60, 103, 0.2)!important;
+  [class*="queryShortcut-"] {
+    display: none;
+  }
+}
+
+.theme-dark .root-1gCeng {
+  background-color: var(--background);
+  div {
+    border-radius: 8px;
+  }
+  div[aria-selected="true"] {
+    background: rgba(72, 60, 103, 0.2);
+  }
+}
