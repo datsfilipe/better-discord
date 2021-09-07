@@ -1,0 +1,102 @@
+/* settings/deafen/mute buttons animated */
+.button-14-BFJ:hover .contents-18-Yxp {
+  animation: UserModalButtons 0.5s normal ease;
+}
+.container-3baos1 .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
+}
+.button-14-BFJ {
+  transition: 0.2s;
+}
+.button-14-BFJ:hover {
+  padding-bottom: 0px;
+  transition: 0.2;
+}
+@keyframes UserModalButtons {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+// home icon color
+[class*="childWrapper-"] {
+  .homeIcon-FuNwkv {
+    path {
+      fill: var(--green)
+    }
+  }
+  &:hover {
+    background-color: var(--green)!important;
+    .homeIcon-FuNwkv {
+      path {
+        fill: var(--dark-text)!important;
+      }
+    }
+  }
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background-color: var(--green)!important;
+  .homeIcon-FuNwkv {
+    path {
+      fill: var(--dark-text)!important;
+    }
+  }
+}
+
+// selected/hover channels
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+  background-color: rgba(72, 60, 103, 0.4);
+}
+
+// public button
+[id*="bd-pub-button"] {
+  color: var(--green)!important;
+  &:hover {
+    color: var(--dark-text)!important;
+    background-color: var(--green)!important;
+  }
+}
+div[class*="iconVisibility-"] {
+  [class*="unread-"] {
+    background-color: var(--orange);
+  }
+}
+
+// select channel/unread channel
+span[class*="item-"] {
+  background-color: var(--yellow)!important;
+  &:hover {
+    background-color: rgba(231, 222, 121, 0.8)!important;
+  }
+}
+
+// selected color
+.selected-aXhQR6 .layout-2DM8Md {
+  background-color: rgba(72, 60, 103, 0.4)!important;
+}
+.layout-2DM8Md {
+  &:hover {
+    background-color: rgba(72, 60, 103, 0.2)!important;
+  }
+}
+
+// user section
+[class*="panels-"] {
+  background-color: rgba(19, 18, 27, 0.7);
+}
+
+// private channel fix color
+[class*="sidebar-"] {
+  nav {
+    [class*="searchBar-"] {
+      background-color: transparent!important;
+    }
+  }
+}
