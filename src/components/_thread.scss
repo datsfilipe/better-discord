@@ -1,0 +1,17 @@
+// resize
+:root {
+  --sidebar-width: 240px; /* change if your theme resizes the sidebar */
+}
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  resize: horizontal;
+  min-width: 400px;
+  max-width: calc(100vw - var(--sidebar-width) - 72px - 400px);
+}
+.chat-3bRxxu:not(.threadSidebarOpen-vdkwIh) {
+  width: unset !important;
+  flex: 1 1 auto;
+}
+.threadSidebar-1o3BTy {
+  width: unset;
+  flex: 1 1 auto;
+}
