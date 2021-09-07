@@ -22,7 +22,7 @@ Navigate to [here](https://github.com/datsfilipe/better-discord/blob/main/src/th
 
 2. Step 2
 
-Click with right mouse click in this button:
+Right-click this button:
 
 <p align="center">
   <img alt="Second pass" src="./src/assets/images/step2.png" />
@@ -30,7 +30,7 @@ Click with right mouse click in this button:
 
 3. Step 3
 
-Select "save ass..." or "save link as..." depending on your navigator
+Select "save as..." or "save link as..." depending on your navigator
 
 #### Activating theme
 
