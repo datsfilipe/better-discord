@@ -2,7 +2,7 @@
   <br>
   <img src="https://storage.googleapis.com/golden-wind/github/omni/omni.png" alt="Omni Logo" width="100">
   <br>
-  Omni for <a href="https://discord.com/app">Discord</a>
+  Omni for <a href="https://betterdiscord.app/">Better Discord</a>
   <br>
 </h1>
 
