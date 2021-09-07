@@ -1,0 +1,189 @@
+// fonts variables
+:root {
+  // settings icons
+  --settingsiconssize: 18px;
+  --settingsiconsgap: 14px;
+
+  --font-primary: "Inter";
+  --font-display: "Poppins";
+  --font-code: "JetBrains Mono";
+
+  --input-border: 1px;
+}
+// change dark theme default values
+[class*="theme-dark"] {
+  --header-primary: #67E480;
+  --text-link: var(--pink);
+  --header-secondary: #E1E1E6;
+  --text-normal: #E1E1E6;
+  --text-muted: #8a8a8c;
+  --interactive-normal: #c9c9cc;
+  --interactive-hover: #E1E1E6;
+  --interactive-active: #fefefe;
+  --interactive-muted: #8a8a8c;
+  --background-primary: #191622;
+  --background-secondary: #191622;
+  --background-secondary-alt: #191622;
+  --background-tertiary: #13111B;
+  --background-accent: #483C67;
+  --background-floating: #121019;
+  --info-positive-text: #E1E1E6;
+  --info-warning-text: #E1E1E6;
+  --info-danger-text: #E1E1E6;
+  --info-help-text: #E1E1E6;
+  --status-warning-text: #1b1b1c;
+  --scrollbar-thin-thumb: #988BC7;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #988BC7;
+  --scrollbar-auto-scrollbar-color-thumb: #988BC7;
+  --scrollbar-auto-scrollbar-color-track: transparent;
+  --logo-primary: #67E480;
+  --info-help-background: #191622;
+  --info-help-foreground: #E1E1E6;
+  --channels-default: #8a8a8c;
+  --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  --channeltextarea-background: #191622;
+  --deprecated-card-bg: rgba(25, 22, 34,0.6);
+  --deprecated-card-editable-bg: rgba(25, 22, 34,0.3);
+  --deprecated-store-bg: #483C67;
+  --deprecated-quickswitcher-input-background: #483C67;
+  --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+  --deprecated-text-input-bg: rgba(25, 22, 34,0.1);
+  --deprecated-text-input-border: rgba(255, 121, 198,0.4);
+  --deprecated-text-input-border-hover: #FF79C6;
+  --deprecated-text-input-border-disabled: rgba(255, 121, 198,0.3);
+  --deprecated-text-input-prefix: #E1E1E6;
+}
+
+// SCROLL
+::-webkit-scrollbar-track {
+  background-color: transparent!important;
+  &:hover {
+    background-color: rgba(152, 139, 199, 0.1)!important;
+  }
+}
+
+// hide cursor when video plays
+.wrapperControlsHidden-35Gtol {
+  cursor: none;
+}
+
+// fixing discord delay animation
+.layer-3QrUeG {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+  pointer-events: auto !important;
+  will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+  z-index: 100 !important;
+}
+
+// buttons on input and user options
+div[class*="contents-"] {
+  svg {
+    path {
+      fill: var(--green);
+    }
+  }
+  &:hover {
+    svg {
+      path {
+        fill: rgba(103, 228, 128, 0.6);
+      }
+    }
+  }
+}
+
+// icons
+[class*="iconContainer-"] {
+  svg {
+    color: var(--green);
+  }
+}
+
+.modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90:hover .icon-1DeIlz, .modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz {
+  color: var(--green);
+}
+
+[class*="iconWrapper-"] {
+  [class*="icon-"], [class*="clickable-"] {
+    color: var(--green)!important;
+  }
+  &:hover {
+    [class*="icon-"], [class*="clickable-"] {
+      color: rgba(103, 228, 128, 0.8)!important;
+    }
+  }
+}
+
+// some buttons style
+[class*="bd-button"] {
+  background-color: var(--green);
+  color: var(--dark-text);
+  &:hover {
+    background-color: rgba(103, 228, 128, 0.6);
+  }
+}
+// some list style
+[class*="item-"] {
+  &:hover {
+    background-color: rgba(72, 60, 103, 0.3)!important;
+  }
+}
+[class*="iconVisibility"] {
+  [class*="content-"] {
+    &:hover {
+      background-color: rgba(72, 60, 103, 0.3)!important;
+    }
+  }
+}
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: rgba(72, 60, 103, 0.6)!important;
+}
+
+// iconBadge
+span[class*="iconBadge-"] {
+  background-color: var(--red);
+}
+
+// footer
+.theme-dark .footer-2gL1pp {
+  background-color: var(--background-darker);
+}
+
+// calendar
+[class*="react-datepicker"], [class*="calendarPicker-"], [class*="theme-dark"] {
+  background-color: var(--background)!important;
+  [class*="react-datepicker__header"] {
+    background-color: var(--background-darker);
+  }
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+// protip
+[class*="protip-"] {
+  padding: 2px;
+  font-family: var(--font-primary)!important;
+  letter-spacing: 0px!important;
+}
+
+// ctrl+k result
+.result-oB0z--[aria-selected=true] {
+  background: rgba(72, 60, 103, 0.4)!important;
+}
+
+// codeRedemptionRedirect
+[class*="codeRedemptionRedirect-"] {
+  background-color: var(--purple-darker)!important;
+  border-color: var(--pink)!important;
+  color: var(--foreground)!important;
+}
