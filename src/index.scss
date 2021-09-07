@@ -1,0 +1,24 @@
+// credits
+@import './credits';
+
+// settings icons
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@300;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+// variables
+@import './vars';
+
+// global
+@import './main';
+
+// components
+@import './components/chat';
+@import './components/input';
+@import './components/settings';
+@import './components/sidebar';
+@import './components/thread';
+@import './components/popout';
+@import './components/title-bar';
+@import './components/home';
