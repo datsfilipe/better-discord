@@ -1,0 +1,76 @@
+// background
+form[class*="form-"] {
+  background-color: var(--background-darker);
+  &::before {
+    background: transparent!important;
+  }
+}
+
+// input shape and style
+[class*="channelTextArea-"] {
+  border-radius: 20px!important;
+  [class*="scrollableContainer-"] {
+    background-color: rgba(72, 60, 103, 0.4);
+    border-radius: 22px!important;
+  }
+}
+
+// emojis
+[class*="emojiButtonNormal-"] {
+  [class*="sprite-"] {
+    filter: grayscale(55%)!important;
+  }
+  &:hover {
+    [class*="sprite-"] {
+      filter: grayscale(0%)!important;
+    }
+  }
+}
+
+// upload button
+div[class*="attachWrapper-"] {
+  div[class*="contents-"] {
+    svg {
+      path {
+        fill: var(--green);
+      }
+    }
+  }
+  &:hover {
+    div[class*="contents-"] {
+      svg {
+        path {
+          fill: rgba(103, 228, 128, 0.6);
+        }
+      }
+    }
+  }
+}
+
+// toolbar
+[class*="toolbar"] {
+  background-color: rgba(72, 60, 103, 0.2)!important;
+  [class*="divider-"] {
+    background-color: var(--purple);
+  }
+  button {
+    background-color: rgba(72, 60, 103, 0.2)!important;
+    div {
+      svg {
+        path {
+          fill: var(--foreground);
+        }
+      }
+    }
+    &:hover {
+      background-color: rgba(72, 60, 103, 0.1)!important;
+      div {
+        svg {
+          path {
+            fill: var(--foreground);
+          }
+        }
+      }
+    }
+  }
+}
