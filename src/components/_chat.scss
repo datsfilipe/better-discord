@@ -1,0 +1,132 @@
+// container
+main[class*="chatContent-"] {
+  [class*="messagesWrapper-"] {
+    background-color: var(--background-darker);
+  }
+  [class*="scroller-"] {
+    background-color: var(--background);
+    margin: 0 12px 26px 12px;
+    border-radius: 0 0 15px 15px;
+  }
+}
+
+// code
+[class*="inline"] {
+  padding: 1px;
+  color: var(--foreground);
+  letter-spacing: 1px;
+  font-family: var(--font-code);
+  border-radius: 4px;
+}
+[class*="markup-"] {
+  code {
+    color: var(--foreground)!important;
+    letter-spacing: 1px!important;
+    font-family: var(--font-code)!important;
+    padding: 10px;
+    background: rgba(72, 60, 103, 0.2)!important;
+    border: 1px solid rgba(72, 60, 103, 0.4)!important;
+    border-radius: 8px;
+  }
+}
+
+// message
+[class*="message-"] {
+  border-radius: 8px;
+}
+
+// mentioned message
+[class*="mentioned-"] {
+  background-color: rgba(72, 60, 103, 0.6);
+  border-radius: 0 8px 8px 0;
+  &:hover {
+    background-color: rgba(72, 60, 103, 0.4)!important;
+    &::before {
+      opacity: 0.6;
+    }
+  }
+  &::before {
+    background-color: var(--pink);
+  }
+}
+
+// divider
+[class*="divider-"] {
+  span[class*="content-"] {
+    color: var(--pink)!important;
+    background-color: transparent!important;
+  }
+}
+
+// new messages bar
+[class*="newMessagesBar-"] {
+  margin-top: 8px;
+  border-radius: 15px;
+  height: 30px;
+  background-color: rgba(72, 60, 103, 0.8);
+  button {
+    color: var(--foreground)!important;
+  }
+}
+
+// jump to present bar
+[class*="jumpToPresentBar-"] {
+  margin-bottom: 13px;
+  padding: 2px;
+  position: absolute;
+  cursor: auto;
+  border-radius: 15px;
+  background-color: rgba(72, 60, 103, 0.8);
+  &:active {
+    margin-bottom: 13px;
+    padding: 2px;
+    position: absolute;
+  }
+  button {
+    cursor: pointer;
+    color: var(--foreground)!important;
+  }
+}
+
+// new message divider
+[class*="chatContent-"] {
+  [class*="divider-"] {
+    border-color: rgba(25, 22, 34, 0.8);
+    span {
+      background-color: var(--red);
+      color: var(--dark-text);
+      svg {
+        path {
+          color: var(--red);
+          fill: var(--red);
+        }
+      }
+    }
+  }
+}
+
+// embed
+[class*="embedFull-"] {
+  border-radius: 8px;
+  background: rgba(72, 60, 103, 0.2);
+}
+
+// fix color follow channel
+form[class*="form-"] {
+  [class*="wrapper-"] {
+    background-color: rgba(72, 60, 103, 0.2);
+  }
+}
+
+// mention
+span[class*="mention"] {
+  background: var(--pink)!important;
+  color: var(--dark-text)!important;
+}
+[class*="iconMention-"] {
+  svg {
+    path {
+      fill: var(--dark-text)!important;
+    }
+  }
+}
