@@ -30,7 +30,7 @@ Right-click this button:
 
 3. Step 3
 
-Select "save ass..." or "save link as..." depending on your navigator
+Select "save as..." or "save link as..." depending on your navigator
 
 #### Activating theme
 
