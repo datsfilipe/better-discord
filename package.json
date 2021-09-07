@@ -1,0 +1,14 @@
+{
+  "name": "discord-omni",
+  "author": "datsfilipe <datsfilipe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
+    "watch": "nodemon -e scss -x \"yarn dev\"",
+    "build": "node-sass src/index.scss src/theme/source.css"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
