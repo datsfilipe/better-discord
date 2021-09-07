@@ -22,7 +22,7 @@ Navigate to [here](https://github.com/datsfilipe/discord-omni/blob/main/src/them
 
 2. Step 2
 
-Click with right mouse click in this button:
+Right-click this button:
 
 <p align="center">
   <img alt="Second pass" src="./src/assets/images/step2.png" />
