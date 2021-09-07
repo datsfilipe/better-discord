@@ -10,7 +10,7 @@ If you are a git user, you can install the theme by cloning the repo:
 
 ### Download the repo
 
-Download using the [GitHub .zip download](https://github.com/datsfilipe/discord-omni/archive/refs/heads/main.zip) option and unzip them.
+Download using the [GitHub .zip download](https://github.com/datsfilipe/better-discord/archive/refs/heads/main.zip) option and unzip them.
 
 - The file that you need will be on path: "src/theme/omni-theme.theme.css"
 
@@ -18,7 +18,7 @@ Download using the [GitHub .zip download](https://github.com/datsfilipe/discord-
 
 1. Step 1
 
-Navigate to [here](https://github.com/datsfilipe/discord-omni/blob/main/src/theme/omni-theme.theme.css)
+Navigate to [here](https://github.com/datsfilipe/better-discord/blob/main/src/theme/omni-theme.theme.css)
 
 2. Step 2
 
