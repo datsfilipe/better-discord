@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
     "watch": "nodemon -e scss -x \"yarn dev\"",
-    "build": "node-sass src/index.scss src/theme/source.css"
+    "build": "node-sass src/index.scss src/theme/source.css --output-style compressed"
   },
   "devDependencies": {
     "node-sass": "^6.0.1",
