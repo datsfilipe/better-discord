@@ -1,7 +1,7 @@
 ### [Better Discord](https://betterdiscord.app/) Theme Installation
 
 
-### Download manually
+### Install manually
 
 #### Download the repo
 
