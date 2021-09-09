@@ -19,16 +19,16 @@ If you are a git user, you can install the theme by cloning the repo:
 
 #### Or download the theme file
 
-> _Step 1_: 
+> - _Step 1_: 
 > Navigate to [here](https://raw.githubusercontent.com/datsfilipe/better-discord/main/src/theme/omni-theme.theme.css).
-> _Step 2_: 
+> - _Step 2_: 
 > And press **"ctrl+s"** to save the theme file.
 
 ### Activating theme
 
->  _Step 1_: 
+> - _Step 1_: 
 > Copy the file "omni-theme.theme.css"
-> _Step 2_: 
+> - _Step 2_: 
 > Go to your Better Discord themes path
-> _Step 3_: 
+> - _Step 3_: 
 > Paste it there and activate it on Better Discord theme section
