@@ -22,7 +22,7 @@ If you are a git user, you can install the theme by cloning the repo:
 > - _Step 1_: 
 > Navigate to [here](https://raw.githubusercontent.com/datsfilipe/better-discord/main/src/theme/omni-theme.theme.css).
 > - _Step 2_: 
-> And press **"ctrl+s"** to save the theme file.
+> Press **"ctrl+s"** to save the theme file.
 
 ### Activating theme
 
