@@ -25,7 +25,7 @@ Navigate to [here](https://raw.githubusercontent.com/datsfilipe/better-discord/m
 
 2. _Step 2
 
-And press "ctrl+s" to save the theme file.
+And press **"ctrl+s"** to save the theme file.
 
 ### Activating theme
 
