@@ -6,13 +6,13 @@ If you are a git user, you can install the theme by cloning the repo:
 
     $ git clone https://github.com/getomni/template.git
   
-! The file that you need will be on path: "src/theme/omni-theme.theme.css"
+! _**The file that you need will be on path: "src/theme/omni-theme.theme.css"**_
 
 ### Download the repo
 
 Download using the [GitHub .zip download](https://github.com/datsfilipe/better-discord/archive/refs/heads/main.zip) option and unzip them.
 
-! The file that you need will be on path: "src/theme/omni-theme.theme.css"
+! _**The file that you need will be on path: "src/theme/omni-theme.theme.css"**_
 
 #### Install manually
 
