@@ -50,6 +50,23 @@
   }
 }
 
+// circle icon buttons
+[class*="circleIconButton-"] {
+  color: var(--green);
+  &[class*="selected-"] {
+    color: var(--background);
+    background-color: var(--green);
+  }
+}
+
+// folder
+[class*="folderIconWrapper-"] {
+  background-color: var(--background)!important;
+}
+[class*="expandedFolderBackground-"] {
+  background-color: var(--background);
+}
+
 // selected/hover channels
 .modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
   background-color: rgba(72, 60, 103, 0.4);
