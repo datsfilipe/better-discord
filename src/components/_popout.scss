@@ -111,8 +111,32 @@
   }
 }
 
+// nitro server booster screen
+[class*="carouselItemSelected-"], [class*="carouselItemClickable-"] {
+  [class*="tier-"] {
+    [class*="tierHeader-"] {
+      background-color: var(--background-darker);
+    }
+    [class*="tierBody-"] {
+      background-color: var(--background);
+    }
   }
-  div[aria-selected="true"] {
-    background: rgba(72, 60, 103, 0.2);
+}
+[class*="content-"] {
+  [class*="perks-"] {
+    [class*="perk-"] {
+      background-color: var(--background-darker);
+    }
+  }
+}
+[class*="action-"] {
+  button[class*="button-"] {
+    background-color: var(--purple-darker);
+    color: var(--foreground);
+    &:hover {
+      background-color: var(--purple-darker);
+      color: var(--foreground);
+      opacity: 0.8;
+  }
   }
 }
