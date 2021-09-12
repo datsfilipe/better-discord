@@ -77,8 +77,40 @@
   }
 }
 
+// peskmodal popout
+[class*="perksModal-"] {
+  background-color: var(--background)!important;
+}
+
+// focuslock popout
+[class*="focusLock-"] {
+  .theme-light .root-1gCeng {
+    box-shadow: 0 0 0 1px rgba(152, 139, 199,.3), 0 2px 10px 0 rgba(152, 139, 199,.1);
+  }
   div {
-    border-radius: 8px;
+    div {
+      div {
+        h3 {
+          color: var(--foreground);
+        }
+        [class*="flex-"] {
+          [class*="colorHeaderSecondary-"] {
+            color: rgba(225, 225, 230, 0.6)!important;
+          }
+        }
+        [class*="content-"] {
+          button[class*="container-"] {
+            [class*="colorStandard-"] {
+              color: var(--foreground)!important;
+            }
+            background-color: var(--background-darker);
+          }
+        }
+      }
+    }
+  }
+}
+
   }
   div[aria-selected="true"] {
     background: rgba(72, 60, 103, 0.2);
