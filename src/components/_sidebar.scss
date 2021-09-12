@@ -74,15 +74,24 @@
 
 // public button
 [id*="bd-pub-button"] {
-  color: var(--green)!important;
+  border-radius: 6px!important;
+  color: var(--yellow)!important;
+  background-color: transparent!important;
   &:hover {
-    color: var(--dark-text)!important;
-    background-color: var(--green)!important;
+    color: var(--background)!important;
+    background-color: var(--yellow)!important;
   }
+}
+[id*="bd-pub-li"] {
+  position: fixed;
+  bottom: 13px;
 }
 div[class*="iconVisibility-"] {
   [class*="unread-"] {
-    background-color: var(--orange);
+    background-color: var(--yellow);
+  }
+}
+
   }
 }
 
