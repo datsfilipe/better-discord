@@ -40,8 +40,24 @@
   }
 }
 
+// root popout bg
 .theme-dark .root-1gCeng {
   background-color: var(--background);
+}
+
+// see profile navigation buttons
+[class*="tabBarItem-"] {
+  font-family: var(--font-display);
+  padding: 6px;
+  border-radius: 6px 6px 0 0;
+}
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+  border-bottom-color: var(--green)!important;
+}
+.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover {
+  border-bottom-color: var(--green);
+  opacity: 0.9;
+}
   div {
     border-radius: 8px;
   }
