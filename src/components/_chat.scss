@@ -49,6 +49,21 @@ main[class*="chatContent-"] {
   }
 }
 
+// blockquote message
+[class*="blockquoteContainer-"] {
+  [class*="blockquoteDivider-"] {
+    background: var(--purple);
+  }
+  blockquote {
+    background-color: var(--purple-darker);
+    padding: 6px;
+    border-radius: 0 6px 6px 0;
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
 // mentioned message
 [class*="mentioned-"] {
   background-color: rgba(72, 60, 103, 0.6);
