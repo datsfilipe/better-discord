@@ -92,6 +92,28 @@ div[class*="iconVisibility-"] {
   }
 }
 
+// channels separator
+[class*="guildSeparator-"] {
+  position: fixed;
+  bottom: 50px;
+  background-color: rgba(255, 121, 198, 0.1);
+}
+
+// channels mini icons
+[class*="upperBadge-"] {
+  [class*="iconBadge-"] {
+    background-color: var(--dark-text);
+    [class*="icon-"] {
+      path {
+        fill: var(--foreground);
+      }
+    }
+  }
+}
+[class*="lowerBadge-"] {
+  [class*="numberBadge-"] {
+    background-color: var(--red)!important;
+    color: var(--dark-text);
   }
 }
 
