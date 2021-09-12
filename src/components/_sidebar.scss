@@ -29,14 +29,14 @@
 [class*="childWrapper-"] {
   .homeIcon-FuNwkv {
     path {
-      fill: var(--green)
+      fill: var(--green);
     }
   }
   &:hover {
     background-color: var(--green)!important;
     .homeIcon-FuNwkv {
       path {
-        fill: var(--dark-text)!important;
+        fill: var(--background)!important;
       }
     }
   }
@@ -45,7 +45,7 @@
   background-color: var(--green)!important;
   .homeIcon-FuNwkv {
     path {
-      fill: var(--dark-text)!important;
+      fill: var(--background)!important;
     }
   }
 }
