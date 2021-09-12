@@ -58,6 +58,25 @@
   border-bottom-color: var(--green);
   opacity: 0.9;
 }
+
+// autocomplete popout
+.theme-dark .autocomplete-1vrmpx {
+  border-radius: 15px;
+  border: 1px solid var(--dark-text);
+  [class*="scroller-"] {
+    background-color: rgba(25, 22, 34, 0.8);
+  }
+  background-color: rgba(25, 22, 34, 0.8);
+  [class*="base-"] {
+    [class*="divider-"] {
+      background: transparent;
+    }
+    &[class*="selected-"] {
+      background-color: var(--active)!important;
+    }
+  }
+}
+
   div {
     border-radius: 8px;
   }
