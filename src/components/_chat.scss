@@ -35,6 +35,12 @@ main[class*="chatContent-"] {
   border-radius: 8px;
 }
 
+// hover message buttons
+[class*="wrapper-"] {
+  [class*="button-"] {
+    color: var(--green);
+  }
+}
 // mentioned message
 [class*="mentioned-"] {
   background-color: rgba(72, 60, 103, 0.6);
