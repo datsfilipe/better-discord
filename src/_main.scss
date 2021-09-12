@@ -187,3 +187,9 @@ span[class*="iconBadge-"] {
   border-color: var(--pink)!important;
   color: var(--foreground)!important;
 }
+
+// stage section
+[class*="stageSection-"] {
+  margin: 0 12px 26px 12px;
+  border-radius: 0 0 15px 15px;
+}
