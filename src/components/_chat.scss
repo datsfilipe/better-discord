@@ -166,9 +166,11 @@ span[class*="mention"] {
 }
 
 // change color of bg images
-div[class*="image-"] {
-  background-image: url("/assets/b36c705f790dad253981f1893085015a.svg")!important;
-  filter: brightness(0.5) sepia(3) hue-rotate(-140deg) saturate(3);
+div[class*="emptyStateContainer-"] {
+  div[class*="image-"] {
+    background-image: url("/assets/b36c705f790dad253981f1893085015a.svg")!important;
+    filter: brightness(0.5) sepia(3) hue-rotate(-140deg) saturate(3);
+  }
 }
 
 div[class*="text-"] {
