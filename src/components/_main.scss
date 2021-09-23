@@ -1,0 +1,8 @@
+[class*="emptyStateImage-"] {
+  filter: brightness(0.4) sepia(1) hue-rotate(-150deg) saturate(3);
+}
+[class*="emptyStateContainer-"] {
+  [class*="image-"] {
+    filter: brightness(0.4) sepia(1) hue-rotate(-150deg) saturate(3);
+  }
+}
