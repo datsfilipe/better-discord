@@ -1,6 +1,52 @@
 :root {
-  --font-primary: 'Inter', sans-serif;;
-  --font-display: 'Roboto', sans-serif;
+  // fonts
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Open Sans', sans-serif;
   --font-code: 'Source Code Pro', monospace;
   --font-headline: 'Poppins', sans-serif;
+
+  // base colors
+  --bg: #191622;
+  --fg: #E1E1E6;
+  --selection: #41414D;
+  --comment: #5A4B81;
+  --text-alt: #141414;
+  --cyan: #78D1E1;
+  --green: #67e480;
+  --orange: #E89E64;
+  --pink: #FF79C6;
+  --purple: #988bc7;
+  --red: #E96379;
+  --yellow: #e7de79;
+  // ansi colors
+  --color0: #201B2D;
+  --color1: #FF79C6;
+  --color2: #e7de79;
+  --color3: #67e480;
+  --color4: #78D1E1;
+  --color5: #988bc7;
+  --color6: #A1EFE4;
+  --color7: #E1E1E6;
+  --color8: #626483;
+  --color9: #ed4556;
+  --color10: #e7de79;
+  --color11: #00F769;
+  --color12: #78D1E1;
+  --color13: #988bc7;
+  --color14: #A4FFFF;
+  --color15: #F7F7FB;
+  --color16: #161616;
+  // bright others
+  --temp-quotes: #e7de79;
+  --temp-property-quotes: #7159C1;
+  // others
+  --line-highlight: #44475A75;
+  --non-text: #FFFFFF1A;
+  --white: #E1E1E6;
+  --tab-drop-bg: #44475A70;
+  // ui variants
+  --bg-lighter: #252131;
+  --bg-light: #201B2D; // HSV (230,25.71, 27.45)
+  --bg-dark: #13111B; // HSV (234.55, 25, 17.25)
+  --bg-darker: #15121E; // HSV (234.55, 25, 13)
 }
