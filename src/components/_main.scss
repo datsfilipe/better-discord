@@ -1,8 +1,129 @@
-[class*="emptyStateImage-"] {
-  filter: brightness(0.4) sepia(1) hue-rotate(-150deg) saturate(3);
+[class*="theme-dark"] {
+  --header-primary: var(--color3);
+  --header-secondary: var(--color7);
+  --text-normal: var(--white);
+  --text-muted: var(--color8);
+  --text-link: hsl(326, 100%, 74%);
+  --text-link-low-saturation: hsla(326, 100%, 74%, 0.6);
+  --text-positive: hsl(240, 9%, 89%);
+  --text-warning: hsla(350, 75%, 65%, 0.8);
+  --text-danger: hsl(350, 75%, 65%);
+  --text-brand: hsl(132, 70%, 65%);
+  --interactive-normal: hsla(132, 70%, 65%, 0.9);
+  --interactive-hover: hsla(132, 70%, 65%, 0.7);
+  --interactive-active: hsla(132, 70%, 65%, 0.5);
+  --interactive-muted: var(--color8);
+  --background-primary: var(--bg);
+  --background-secondary: var(--bg-darker);
+  --background-secondary-alt: var(--bg-dark);
+  --background-tertiary: var(--bg-lighter);
+  --background-accent: var(--bg);
+  --background-floating: var(--bg-lighter);
+  --background-mobile-primary: var(--bg);
+  --background-mobile-secondary: var(--bg-lighter);
+  --background-modifier-hover: rgba(65,65,77,0.10);
+  --background-modifier-active: rgba(65,65,77,0.20);
+  --background-modifier-selected: rgba(65,65,77,0.30);
+  --background-modifier-accent: rgba(25,22,34,0.08);
+  --info-positive-text: var(--white);
+  --info-warning-text: var(--white);
+  --info-danger-text: var(--white);
+  --info-help-background: hsla(257, 25%, 14%,0.1);
+  --info-help-foreground: hsl(240, 9%, 89%);
+  --info-help-text: var(--white);
+  --status-warning-text: var(--temp-quotes);
+  --scrollbar-thin-thumb: rgba(152,139,199,0.3);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: rgba(152,139,199,0.5);
+  --scrollbar-auto-track: rgba(37,33,49,0.5);
+  --scrollbar-auto-scrollbar-color-thumb: rgba(152,139,199,0.5);
+  --scrollbar-auto-scrollbar-color-track: rgba(37,33,49,0.5);
+  --elevation-stroke: 0 0 0 1px rgba(225,225,230,0.08);
+  --elevation-low: 0 1px 0 rgba(225,225,230,0.1),0 1.5px 0 rgba(225,225,230,0.025),0 2px 0 rgba(225,225,230,0.025);
+  --elevation-medium: 0 4px 4px rgba(247,247,251,0.08);
+  --elevation-high: 0 8px 16px rgba(247,247,251,0.16);
+  --logo-primary: hsl(132, 70%, 65%);
+  --control-brand-foreground: hsl(132, 70%, 65%);
+  --control-brand-foreground-new: hsl(132, 70%, 65%);
+  --background-mentioned: hsla(253, 35%, 66%,0.1);
+  --background-mentioned-hover: hsla(253, 35%, 66%,0.2);
+  --background-message-hover: rgba(65,65,77,0.1);
+  --channels-default: hsla(240, 9%, 89%, 0.5);
+  --guild-header-text-shadow: 0 1px 1px hsla(252, 23%, 9%, 0.4);
+  --channeltextarea-background: var(--bg-light);
+  --activity-card-background: var(--bg-darker);
+  --textbox-markdown-syntax: var(--color8);
+  --deprecated-card-bg: var(--bg-darker);
+  --deprecated-card-editable-bg: var(--bg-dark);
+  --deprecated-store-bg: var(--bg-darker);
+  --deprecated-quickswitcher-input-background: var(--bg-light);
+  --deprecated-quickswitcher-input-placeholder: rgba(225, 225, 230,0.3);
+  --deprecated-text-input-bg: rgba(32, 27, 45,0.02);
+  --deprecated-text-input-border: rgba(37, 33, 49,0.3);
+  --deprecated-text-input-border-hover: #252131;
+  --deprecated-text-input-border-disabled: #15121E;
+  --deprecated-text-input-prefix: #13111B;
+
+  // theme-light and dark
+  --info-positive-background: hsla(257, 25%, 14%,0.1);
+  --info-positive-foreground: hsl(240, 9%, 89%);
+  --info-warning-background: hsla(257, 25%, 14%,0.1);
+  --info-warning-foreground: hsl(240, 9%, 89%);
+  --info-danger-background: hsla(257, 25%, 14%,0.1);
+  --info-danger-foreground: hsl(240, 9%, 89%);
+  --status-positive-background: hsl(257, 25%, 14%);
+  --status-positive-text: hsl(240, 33%, 98%);
+  --status-warning-background: var(--color0);
+  --status-danger-background: var(--bg-lighter);
+  --status-danger-text: hsl(240, 33%, 98%);
+  --focus-primary: var(--line-highlight);
 }
-[class*="emptyStateContainer-"] {
-  [class*="image-"] {
-    filter: brightness(0.4) sepia(1) hue-rotate(-150deg) saturate(3);
-  }
+
+
+[data-popout-root], html {
+  --brand-experiment-100: hsl(240,calc(var(--saturation-factor, 1)*77.8%),98.2%);
+  --brand-experiment-130: hsl(236,calc(var(--saturation-factor, 1)*87.5%),96.9%);
+  --brand-experiment-160: hsl(235,calc(var(--saturation-factor, 1)*84.6%),94.9%);
+  --brand-experiment-200: var(--text-alt);
+  --brand-experiment-230: hsl(236,calc(var(--saturation-factor, 1)*87%),91%);
+  --brand-experiment-260: hsl(235,calc(var(--saturation-factor, 1)*86.2%),88.6%);
+  --brand-experiment-300: hsl(235,calc(var(--saturation-factor, 1)*86.1%),85.9%);
+  --brand-experiment-330: hsl(235,calc(var(--saturation-factor, 1)*85.1%),81.6%);
+  --brand-experiment-360: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+  --brand-experiment-400: hsl(235,calc(var(--saturation-factor, 1)*86.1%),71.8%);
+  --brand-experiment-430: hsl(235,calc(var(--saturation-factor, 1)*85.7%),69.8%);
+  --brand-experiment-460: hsl(235,calc(var(--saturation-factor, 1)*85.5%),67.5%);
+  --brand-experiment: hsla(326, 100%, 74%, 0.9);
+  --brand-experiment-500: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+  --brand-experiment-530: hsl(235,calc(var(--saturation-factor, 1)*66.7%),58.8%);
+  --brand-experiment-560: var(--line-highlight);
+  --brand-experiment-600: hsl(235,calc(var(--saturation-factor, 1)*46.7%),44.1%);
+  --brand-experiment-630: hsl(235,calc(var(--saturation-factor, 1)*46.7%),38.2%);
+  --brand-experiment-660: hsl(235,calc(var(--saturation-factor, 1)*47.1%),33.3%);
+  --brand-experiment-700: hsl(235,calc(var(--saturation-factor, 1)*47%),25.9%);
+  --brand-experiment-730: hsl(235,calc(var(--saturation-factor, 1)*46.8%),24.3%);
+  --brand-experiment-760: hsl(234,calc(var(--saturation-factor, 1)*46.9%),22.2%);
+  --brand-experiment-800: hsl(235,calc(var(--saturation-factor, 1)*47.5%),19.4%);
+  --brand-experiment-830: hsl(235,calc(var(--saturation-factor, 1)*47.4%),14.9%);
+  --brand-experiment-860: hsl(235,calc(var(--saturation-factor, 1)*46.9%),9.6%);
+  --brand-experiment-900: hsl(233,calc(var(--saturation-factor, 1)*50%),3.1%);
+  --brand-experiment-05a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.05);
+  --brand-experiment-10a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.1);
+  --brand-experiment-15a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.15);
+  --brand-experiment-20a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.2);
+  --brand-experiment-25a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.25);
+  --brand-experiment-30a: var(--pink);
+  --brand-experiment-35a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.35);
+  --brand-experiment-40a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.4);
+  --brand-experiment-45a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.45);
+  --brand-experiment-50a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.5);
+  --brand-experiment-55a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.55);
+  --brand-experiment-60a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.6);
+  --brand-experiment-65a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.65);
+  --brand-experiment-70a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.7);
+  --brand-experiment-75a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.75);
+  --brand-experiment-80a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.8);
+  --brand-experiment-85a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.85);
+  --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
+  --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
 }
