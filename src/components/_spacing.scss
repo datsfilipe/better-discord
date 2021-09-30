@@ -1,0 +1,189 @@
+[class*="sidebar-"] {
+  background: var(--bg-light);
+  padding: 10px 10px 10px 10px;
+  section[class*="panels-"] {
+    margin-top: 10px;
+    border-radius: 12px;
+    &:hover {
+      [class*="subtext-"] {
+        color: hsla(240, 9%, 89%, 1);
+      }
+    }
+  }
+  [class*="container-"] {
+    border-radius: 12px;
+    [class*="animatedContainer-"] {
+      border-radius: 12px 12px 0 0;
+    }
+    [class*="headerChildren-"] {
+      color: var(--header-primary);
+    }
+  }
+}
+
+[class*="sidebar-"] [class*="layout-"] {
+  margin-right: 6px;
+  margin-left: 0px;
+  padding-left: 6px !important;
+  height: 36px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+[class*="privateChannels-"] {
+  border-radius: 12px;
+}
+
+[class*="membersWrap-"] {
+  background-color: var(--bg-light);
+  [class*="members-"] {
+    margin: 10px 10px 10px 5px;
+    border-radius: 12px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent!important;
+  &:hover {
+    background-color: var(--scrollbar-auto-track)!important;
+  }
+}
+
+[class*="homeWrapperNormal-"] {
+  background-color: var(--bg-light);
+  [class*="scroller-"] {
+    border: 1px solid var(--background-secondary);
+    background-color: var(--background-primary);
+    margin: 16px 16px 16px 10px;
+    border-radius: 12px;
+  }
+}
+
+[class*="pageContent-"] {
+  background-color: var(--bg-light);
+  [class*="stageSection-"] {
+    border: 1px solid var(--background-secondary);
+    background-color: var(--background-primary);
+    margin: 16px 16px 16px 10px;
+    border-radius: 12px;
+  }
+  [class*="nowPlayingSidebar-"] {
+    background-color: var(--bg-light);
+    [class*="container-"] {
+      background: var(--background-secondary);
+      height: 90vh;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    [class*="emptyCard-"] {
+      background: var(--background-secondary);
+    }
+  }
+}
+
+[class*="chatContent-"] {
+  background-color: var(--bg-light);
+  [class*="messagesWrapper-"] {
+    background-color: var(--background-primary);
+    padding: 4px;
+    margin: 10px 10px 13px 10px;
+    border: 1px solid var(--background-secondary);
+    border-radius: 15px!important;
+  }
+  [class*="form-"] {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+form {
+  div {
+    >[class*="wrapper-"] {
+      margin-top: 10px;
+      background-color: var(--bg-darker);
+    }
+  }
+}
+
+[class*="channelTextArea-"] {
+  background-color: var(--background-secondary-alt);
+  border-radius: 15px;
+  [class*="scrollableContainer-"] {
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+}
+
+section[class*="title-"] {
+  background: var(--bg-light)!important;
+  [class*="children"] {
+    background-color: var(--background-secondary);
+    margin: 13px 10px 0 2px;
+    border-radius: 12px;
+    padding: .6rem;
+    &::after {
+      display: none;
+    }
+    [class*="toolbar-"] {
+      padding: .6rem;
+      background-color: var(--background-secondary);
+      margin: 13px 2px 0 0;
+      border-radius: 0 12px 12px 0;
+    }
+  }
+}
+
+[class*="base-"] {
+  [class*="content-"] {
+    section[class*="container-"] {
+      background: var(--bg-light)!important;
+      [class*="children"] {
+        background-color: var(--background-secondary-alt);
+        margin: 10px 0 0 0;
+        border-radius: 12px 0 0 12px;
+        padding: .6rem;
+        &::after {
+          display: none;
+        }
+      }
+      [class*="toolbar-"] {
+        padding: .6rem;
+        background-color: var(--background-secondary-alt);
+        margin: 10px 2px 0 0;
+        border-radius: 0 12px 12px 0;
+      }
+    }
+  }
+}
+
+[class*="nowPlayingColumn-"] {
+  background-color: var(--bg-light);
+  [class*="container-"] {
+    background: var(--background-secondary);
+    height: 90vh;
+    margin: 10px;
+    border-radius: 12px;
+    [class*="emptyCard-"] {
+      background: var(--background-secondary);
+    }
+  }
+}
+
+[class*="app-"] {
+  [class*="layers-"] {
+    background-color: var(--bg-light);
+    nav {
+      &[class*="wrapper-"] {
+        background-color: var(--bg-light);
+        margin: 10px 0 10px 10px;
+        >ul {
+          [class*="scroller-"] {
+            border-radius: 12px;
+            background: var(--background-secondary-alt);
+          }
+        }
+      }
+    }
+  }
+}
