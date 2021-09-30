@@ -1,21 +1,18 @@
-// settings icons
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+// import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap');
 
-// fonts
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap');
-
-// variables
+// import the main files, including variables
 @import './variables';
-
-// global
 @import './components/main';
 
-// components
-@import './components/chat';
-@import './components/input';
-@import './components/settings';
+// importing components
+@import './components/spacing';
 @import './components/sidebar';
-@import './components/thread';
-@import './components/popout';
-@import './components/title-bar';
 @import './components/home';
+@import './components/chat';
+@import './components/title-bar';
+@import './components/settings';
+@import './components/images';
+@import './components/popout';
+@import './components/theme';
+@import './components/snippets';
