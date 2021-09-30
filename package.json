@@ -22,5 +22,8 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ansi-regex": "^5.0.1"
   }
 }
