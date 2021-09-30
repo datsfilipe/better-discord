@@ -2,6 +2,18 @@
   "name": "discord-omni",
   "author": "datsfilipe <datsfilipe@gmail.com>",
   "license": "MIT",
+  "version": "2.0.0",
+  "description": "A Omni Dark theme for BetterDiscord.",
+  "maintainers": [
+    "Filipe Lima <datsfilipe@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datsfilipe/better-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datsfilipe/better-discord/issues"
+  },
   "scripts": {
     "dev": "node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
     "watch": "nodemon -e scss -x \"yarn dev\"",
