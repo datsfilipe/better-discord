@@ -1,0 +1,105 @@
+[class*="theme-dark"], [class*="theme-light"] {
+  .outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: var(--line-highlight);
+  }
+  .addGamePopout-2RY8Ju {
+    background-color: var(--background-floating);
+  }
+  .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+    background-color: var(--green)!important;
+    opacity: 0.4;
+  }
+  [class*="footer-"] {
+    background-color: var(--background-secondary);
+    border-color: var(--purple);
+  }
+  [class*="root-"] {
+    background-color: var(--background-primary)!important;
+    [class*="container-"] {
+      background-color: var(--background-primary)!important;
+    }
+  }
+  [class*="pageWrapper-"] {
+    background-color: var(--background-primary);
+  }
+  div[class*="container-1D34oG"] {
+    background-color: var(--bb-light);
+  }
+  .bar-2Qqk5Z {
+    background: var(--line-highlight);
+  }
+  .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--background-floating);
+    border-color: var(--interactive-active);
+    border-radius: 8px;
+    div {
+      img[class*="marginBottom20-"] {
+        filter: brightness(0.6) sepia(1) hue-rotate(-150deg) saturate(1);
+      }
+    }
+  }
+  .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+    background-color: var(--line-highlight);
+    border-radius: 8px;
+  }
+  .nowPlaying-284llR {
+    background-color: var(--interactive-hover);
+    border-radius: 8px;
+    [class*="gameNameLastPlayed-"] {
+      input {
+        width: 60%;
+        font-family: var(--font-primary);
+        font-weight: bold;
+        color: var(--text-alt);
+      }
+      input:active {
+        background-color: var(--line-highlight);
+      }
+      input:hover {
+        background-color: var(--line-highlight);
+        opacity: 0.9;
+      }
+      div {
+        font-family: var(--font-headline);
+        letter-spacing: 1px;
+        line-height: 18px;
+        color: var(--text-alt);
+        opacity: 0.9;
+      }
+    }
+  }
+  .gameNameInput-385LoS:hover, .gameNameInput-385LoS:focus {
+    background-color: var(--line-highlight);
+  }
+  [class*="keybindShortcut-"] {
+    color: var(--text-muted);
+  }
+  [class*="codeRedemptionRedirect-"] {
+    background-color: hsla(236, 14%, 45%, 0.15);
+    color: var(--white);
+  }
+  [class*="lookFilled-"] {
+    &[class*="colorPrimary-"] {
+      background-color: var(--text-muted);
+      &:hover {
+        background-color: var(--purple)!important;
+      }
+    }
+  }
+  [class*="defaultIndicator-"] {
+    font-size: .8rem;
+    padding: 3px;
+    font-family: var(--font-headline);
+    letter-spacing: 1px;
+    color: var(--text-alt);
+    background-color: var(--purple);
+  }
+  [class*="lookFilled-"] {
+    &[class*="colorGrey-"] {
+      background-color: var(--green);
+      &:hover {
+        background-color: var(--color11)!important;
+      }
+    }
+  }
+}
