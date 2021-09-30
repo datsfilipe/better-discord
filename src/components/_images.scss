@@ -1,0 +1,43 @@
+[class*="theme-dark"] {
+  // color empty state images for light theme
+  [class*="emptyStateImage-"] {
+    filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+  }
+  [class*="emptyStateContainer-"] {
+    [class*="image-"] {
+      filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+    }
+  }
+}
+
+[class*="image-"] {
+  &[style='flex: 0 1 auto; width: 320px; height: 170px; background-image: url("/assets/12d9bda733d6432d605e8011c22c3e56.svg");'] {
+    filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+  }
+}
+
+[class*="image-"] {
+  &[style='background-image: url("/assets/ef3a1ed683cfcf029971b12a26462072.svg");'] {
+    filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+  }
+}
+
+[class*="image-"] {
+  &[style='flex: 0 1 auto; width: 256px; height: 212px; background-image: url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg");'] {
+    filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+  }
+}
+
+[class*="image-"] {
+  &[style='flex: 0 1 auto; width: 256px; height: 130px; background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg");'] {
+    filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+  }
+}
+
+[class*="marketingRefreshTier1Graphic-"] {
+  filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+}
+
+[class*="notches-"] {
+  filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+}
