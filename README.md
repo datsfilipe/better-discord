@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img alt="Omni screnshoot for X" src="./screenshot.png">
+  <img width="800" alt="Omni screnshoot for BetterDiscord" src="./screenshot.png">
 </p>
 
 ## Install
@@ -34,7 +34,7 @@ All instructions can be found at [INSTALL.md](./INSTALL.md).
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/getomni/template/graphs/contributors).
 
-| [![Filipe Lima](https://github.com/datsfilipe.png?size=100)](https://github.com/datsfilipe) |
+| [![Filipe Lima](https://github.com/datsfilipe.png?size=120)](https://github.com/datsfilipe) |
 | ------------------------------------------------------------------------------------------------ |
 | [Filipe Lima](https://github.com/datsfilipe)                                                   |
 
