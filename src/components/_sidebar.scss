@@ -3,23 +3,287 @@
     [class*="item-"] {
       color: var(--channels-default);
       &::before {
-        color: var(--green);
+        color: hsl(253, 35%, 66%);
       }
       &[class*="selected-"] {
-        color: var(--white);
+        font-weight: 500;
+        color: var(--color4);
         &::before {
-          color: hsla(132, 70%, 65%, 0.6);
+          color: hsla(253, 35%, 66%, 0.8);
         }
       }
     }
   }
 }
 
+[class*="attachButtonPlay-"] {
+  fill: var(--color11);
+}
+
+[class*="premiumTabItem-"] {
+  &[aria-selected=true] {
+    background-color: var(--text-muted)!important;
+    color: var(--text-alt)!important;
+    &::before {
+      color: var(--text-alt)!important;
+    }
+  }
+}
+
+[class*="cardText-"] {
+  color: var(--white);
+}
+
+[class*="colorDefault-"]:active:not([class*="hideInteraction-"]) {
+  background-color: var(--selection)!important;
+}
+
 [class*="name-"], [class*="labelContainer-"] {
   --interactive-normal: hsla(240, 9%, 89%, 0.5);
   --interactive-hover: hsla(240, 9%, 89%, 0.7);
-  --interactive-active: hsl(240, 9%, 89%);
+  --interactive-active: var(--white);
   [class*="iconContainer-"] {
-    color: var(--green);
+    color: var(--purple);
   }
 }
+
+a[class*="channel-"] {
+  &[class*="selected-"] {
+    [class*="layout-"] {
+      svg {
+        color: var(--interactive-normal);
+      }
+      [class*="name-"] {
+        color: var(--white);
+      }
+    }
+    &:hover {
+      [class*="layout-"] {
+        [class*="name-"] {
+          color: hsla(240, 9%, 89%, 0.7)!important;
+        }
+      }
+    }
+  }
+  &:hover {
+    [class*="layout-"] {
+      [class*="name-"] {
+        color: hsla(240, 9%, 89%, 0.7);
+      }
+    }
+  }
+}
+
+[class*="nowPlayingColumn-"], [class*="nowPlayingSidebar-"] {
+  [class*="container-"] {
+    [class*="header-"] {
+      color: var(--yellow);
+    }
+    [class*="emptyCard-"] {
+      [class*="emptyHeader-"] {
+        color: var(--color15);
+      }
+      [class*="emptyText-"] {
+        color: var(--text-muted);
+      }
+    }
+  }
+}
+
+[class*="sidebar-"] {
+  [class*="container-"] {
+    [class*="containerDefault-"] {
+      [class*="mainContent-"] {
+        [class*="container-"] {
+          font-family: var(--font-headline);
+          letter-spacing: 1px;
+          color: var(--white);
+        }
+      }
+    }
+  }
+}
+
+[class*="nameTag-"] {
+  [class*="colorStandard-"] {
+    [class*="title-"] {
+      color: var(--yellow);
+    }
+  }
+  [class*="subtext-"] {
+    color: hsla(240, 9%, 89%, 0.7);
+  }
+}
+
+[class*="privateChannelsHeaderContainer-"] {
+  &:hover {
+    color: var(--white);
+  }
+}
+
+[class*="numberBadge-"] {
+  font-family: var(--font-display);
+  background-color: var(--pink)!important;
+  color: var(--text-alt);
+}
+
+[class*="pill-"] {
+  [class*="item-"] {
+    background-color: var(--purple);
+  }
+}
+
+[class*="iconVisibility-"] {
+  [class*="unread-"] {
+    background-color: var(--interactive-active);
+  }
+}
+
+[class*="membersGroup-"] {
+  span {
+    font-family: var(--font-headline);
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: hsla(240, 9%, 89%, 0.7);
+  }
+}
+
+[id*="bd-pub-li"] {
+  display: none;
+}
+
+[class*="listItem-"] {
+  [class*="guildSeparator-"] {
+    width: 70%;
+    height: 1px;
+    background-color: var(--interactive-normal);
+    opacity: 0.3;
+  }
+}
+
+[class*="sidebar-"] {
+  [class*="container-"] {
+    [class*="header-"] {
+      [class*="name-"] {
+        color: var(--white);
+      }
+    }
+  }
+}
+
+[class*="childWrapper-"] {
+  background-color: var(--line-highlight);
+  .homeIcon-FuNwkv {
+    path {
+      fill: var(--interactive-normal);
+    }
+  }
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background-color: var(--line-highlight)!important;
+  .homeIcon-FuNwkv {
+    opacity: 0.9;
+    path {
+      fill: var(--interactive-normal);
+    }
+  }
+}
+
+[class*="circleIconButton-"] {
+  color: var(--interactive-normal);
+  background-color: var(--line-highlight);
+  &[class*="selected-"] {
+    color: var(--interactive-normal);
+    background-color: var(--line-highlight);
+  }
+}
+
+[class*="folderIconWrapper-"] {
+  background-color: var(--line-highlight)!important;
+}
+[class*="expandedFolderBackground-"] {
+  background-color: var(--line-highlight);
+}
+
+[class*="actionIcon-"] {
+  color: var(--color14);
+  &:hover {
+    color: var(--color4);
+  }
+}
+
+[class*="subText-"] {
+  [class*="activity-"] {
+    [class*="icon-"] {
+      color: hsla(240, 9%, 89%, 0.7);
+    }
+  }
+}
+
+[aria-label="Create Channel"] {
+  [class*="contents-"] {
+    [class*="addButtonIcon-"] {
+      &:hover {
+        polygon {
+          fill: var(--white);
+        }
+      }
+    }
+  }
+}
+
+[class*="containerDefault-"] {
+  &:hover {
+    [class*="arrow-"] {
+      &[class*="icon-"] {
+        path {
+          fill: var(--white);
+        }
+      }
+    }
+  }
+}
+
+[class*="unreadBar-"] {
+  &[class*="mention-"] {
+    background-color: var(--red);
+    color: var(--text-alt);
+  }
+}
+
+[class*="botTag-"] {
+  &[class*="botTagRegular-"] {
+    background-color: var(--purple);
+    color: var(--text-alt);
+  }
+  [class*="botTagVerified-"] {
+    path {
+      fill: var(--text-alt);
+    }
+  }
+}
+
+rect[mask="url(#svg-mask-status-offline)"] {
+  fill: var(--purple);
+  opacity: 0.4;
+}
+
+rect[mask="url(#ba1c65ec-34b0-41e0-a522-33ed4de00e47)"] {
+  fill: var(--purple);
+  opacity: 0.4;
+}
+
+[class*="result-"] {
+  [class*="contentUnread-"] {
+    [class*="name-"] {
+      [class*="wrapper-"] {
+        height: 55%;
+        border-radius: 50%;
+        background-color: var(--pink);
+        font-family: var(--font-display);
+        color: var(--text-alt);
+      }
+    }
+  }
+}
+
