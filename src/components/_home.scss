@@ -1,10 +1,103 @@
-// background
-[class*="tabBody-"] {
-  background-color: var(--background-darker)!important;
+[class*="peopleList-"] {
+  [class*="title-"] {
+    font-size: .9rem;
+    letter-spacing: 2px;
+    font-family: var(--font-headline);
+    background-color: transparent;
+    color: var(--header-primary);
+  }
 }
-// style container
-[class*="peopleColumn-"] {
-  margin: 0 12px 15px 12px;
-  border-radius: 0 0 15px 15px;
-  background-color: var(--background);
+
+[class*="stageSection-"] {
+  [class*="container-"] {
+    [class*="headerContainer-"] {
+      [class*="colorHeaderPrimary-"] {
+        color: var(--white);
+        font-size: 2rem;
+        margin: 10px 10px 10px 0;
+      }
+    }
+    [class*="container-"] {
+      background-color: var(--background-secondary-alt);
+      [role*="button"] {
+        >[class*="icon-"] {
+          path {
+            fill: var(--green);
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
+      }
+      [class*="content-"] {
+        [class*="header-"] {
+          color: var(--white)!important;
+          &:hover {
+            --interactive-hover: hsla(240, 9%, 89%, 0.7);
+            color: var(--interactive-hover)!important;
+          }
+        }
+        [class*="colorStandard-"] {
+          color: var(--orange);
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+      [class*="colorHeaderPrimary-"] {
+        color: var(--yellow);
+        &:hover {
+          color: var(--orange)
+        }
+      }
+      [class*="colorHeaderSecondary-"] {
+        &:hover {
+          color: var(--orange)
+        }
+      }
+      [class*="icon-"] {
+        svg {
+          path {
+            fill: var(--yellow);
+          }
+        }
+        &:hover {
+          svg {
+            path {
+              fill: var(--orange);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+[class*="userInfo-"] {
+  [class*="text-"] {
+    [class*="discordTag-"] {
+      span {
+        color: var(--interactive-hover);
+      }
+      [class*="discriminator-"] {
+        color: var(--pink);
+      }
+    }
+    [class*="subtext-"] {
+      color: var(--text-muted);
+    }
+  }
+}
+
+[class*="categoryItem-"] {
+  &[class*="selectedCategoryItem-"] {
+    [class*="itemInner-"] {
+      background-color: var(--purple);
+      color: var(--text-alt);
+    }
+  }
+}
+
+[class*="addButton-"] {
+  color: var(--text-alt);
 }
