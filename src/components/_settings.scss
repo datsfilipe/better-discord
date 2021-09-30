@@ -1,11 +1,512 @@
-[class*="theme-dark"] {
-  // color empty state images for light theme
-  [class*="emptyStateImage-"] {
-    filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+  background-color: var(--green);
+  color: var(--text-alt)!important;
+  &:hover {
+    background-color: var(--green)!important;
+    opacity: 0.4;
   }
-  [class*="emptyStateContainer-"] {
-    [class*="image-"] {
-      filter: brightness(0.5) sepia(1) hue-rotate(-150deg) saturate(2);
+}
+
+[class*="horizontal-"] {
+  [class*="container-"] {
+    background-color: hsla(257, 26%, 40%, 0.6)!important;
+    svg {
+      rect {
+        fill: var(--bg);
+      }
+      &[style="left: -3px;"] {
+        svg {
+          path {
+            fill: var(--color9);
+          }
+        }
+      }
+    }
+  }
+}
+
+[class*="bd-setting-header"] {
+  label {
+    font-family: var(--font-headline);
+    color: var(--yellow);
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+[class*="bd-setting-note"] {
+  color: hsla(240, 9%, 89%, 0.7);
+}
+
+[class*="marginTop20-"] {
+  [class*="flex-"] {
+    [class*="slider-"] {
+      [class*="bar-"] {
+        background: var(--text-muted);
+      }
+    }
+  }
+  [class*="slider-"] {
+    [class*="bar-"] {
+      background: var(--text-muted);
+    }
+  }
+}
+
+[class*="changelogNotice-"] {
+  [class*="info-"] {
+    [class*="colorStandard-"] {
+      color: var(--white);
+    }
+  }
+  [class*="button-"] {
+    margin-left: 20px;
+    [class*="contents-"] {
+      color: var(--pink);
+    }
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+[class*="lookInverted-"] {
+  &[class*="colorBrand-"] {
+    color: var(--white);
+    background: var(--bg-light);
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+label[for*="uid_210"] {
+  color: var(--white);
+}
+
+[class*="defaultColor-"] {
+  font-family: var(--font-headline);
+  color: var(--yellow);
+}
+
+[class*="premiumInlineNotice-"] {
+  [class*="noticeLeft-"] {
+    [class*="colorStandard-"] {
+      color: var(--white);
+    }
+  }
+  background-color: var(--background-tertiary);
+}
+
+[class*="connection-"] {
+  [class*="connectionHeader-"] {
+    border-bottom: 1px solid hsla(253, 35%, 66%,0.1);
+  }
+}
+
+[class*="accountList-"] {
+  div {
+    color: hsla(240, 9%, 89%, 0.7);
+  }
+}
+
+[class*="lookFilled-"] [class*="colorGreen-"] {
+  background-color: var(--red);
+}
+
+button[class*="lookOutlined-"] {
+  &[class*="colorRed-"] {
+    color: var(--red);
+    border-color: var(--red);
+    &:hover {
+      border-color: var(--color9)!important;
+      color: var(--color9)!important;
+      opacity: 0.9;
+    }
+  }
+}
+
+button[class*="lookFilled-"] {
+  &[class*="colorRed-"] {
+    background-color: var(--red);
+    &:hover {
+      background-color: var(--color9)!important;
+      opacity: 0.9;
+    }
+  }
+}
+
+[class*="bd-sidebar-"] {
+  margin: 0;
+  padding: 0;
+}
+
+button[class*="lookFilled-"] {
+  &[class*="colorBrand-"] {
+    color: var(--text-alt)!important;
+    background-color: var(--green);
+    &:hover {
+      background-color: var(--color11)!important;
+    }
+  }
+}
+
+.bd-addon-views .bd-view-button.selected {
+  background-color: var(--interactive-active);
+}
+
+.bd-button {
+  background-color: var(--interactive-normal);
+  color: var(--text-alt);
+  border-radius: 4px;
+  &:hover {
+    background-color: var(--interactive-hover);
+  }
+}
+
+[class*="membershipDialogContent-"] {
+  [class*="flex-"] {
+    [class*="flexChild-"] {
+      div {
+        color: var(--text-alt);
+        opacity: 0.9;
+      }
+      h3 {
+        font-family: var(--font-headline);
+        letter-spacing: 1px;
+        color: var(--text-alt);
+      }
+    }
+  }
+  [class*="colorStandard-"] {
+    border-color: var(--line-highlight);
+    color: var(--text-alt);
+    span {
+      color: var(--text-alt);
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+[class*="item-"] {
+  &[aria-controls="logout-tab"] {
+    color: var(--red)!important;
+    &::before {
+      color: var(--red)!important;
+    }
+    &:hover {
+      background-color: var(--color9)!important;
+      color: var(--text-alt)!important;
+      &::before {
+        color: var(--text-alt)!important;
+      }
+    }
+  }
+}
+
+button[class*="lookFilled-"] {
+  &[class*="colorGreen-"] {
+    background-color: var(--green);
+    &:hover {
+      background-color: var(--color11)!important;
+    }
+  }
+}
+
+
+[class*="flexChild-"] {
+  [class*="lookFilled-"] {
+    background-color: transparent;
+    color: var(--white)!important;
+  }
+  [class*="lookFilled-"]:hover {
+    background-color: var(--line-highlight)!important;
+  }
+}
+[class*="lookFilled-"] {
+  &[class*="colorWhite-"] {
+    background-color: var(--green);
+    [class*="contents-"] {
+      color: var(--text-alt);
+    }
+    &:hover {
+      background-color: var(--color11)!important;
+      [class*="contents-"] {
+        color: var(--text-alt);
+      }
+    }
+  }
+}
+
+[class*="tier-"] {
+  [class*="tierHeaderLocked-"] {
+    background-color: var(--bg-light);
+    color: var(--fg);
+  }
+  [class*="tierHeader-"] {
+    background-color: var(--bg-light);
+    color: var(--fg);
+  }
+  [class*="tierBody-"] {
+    background-color: var(--bg-lighter);
+    color: var(--fg);
+  }
+}
+
+[class*="customContainer-"] {
+  [class*="customScroller-"] {
+    [class*="content-"] {
+      div {
+        [class*="container-"] {
+          background-color: var(--bg-lighter);
+          color: var(--white);
+        }
+      }
+    }
+  }
+}
+
+[class*="children-"] {
+  div {
+    [class*="lookFilled-"] {
+      &[class*="select-"] {
+        color: var(--white)!important;
+        svg[aria-hidden="false"] {
+          path {
+            fill: var(--fg)!important;
+          }
+        }
+        &:hover {
+          background-color: var(--line-highlight)!important;
+          span[class*="value"] {
+            svg {
+              path {
+                fill: var(--fg);
+              }
+            }
+          }
+          [class*="icons-"] {
+            svg {
+              path {
+                fill: var(--fg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+[class*="divider-"] {
+  [class*="lookFilled-"]:hover {
+    background-color: var(--line-highlight)!important;
+    span[class*="value"] {
+      svg {
+        path {
+          fill: var(--fg);
+        }
+      }
+    }
+    [class*="icons-"] {
+      svg {
+        path {
+          fill: var(--fg);
+        }
+      }
+    }
+  }
+}
+
+[class*="sidebar-"] [class*="side-"] [aria-controls*="delete-tab"] {
+  color: var(--red)!important;
+  &::before {
+    color: var(--red)!important;
+  }
+}
+
+[class*="textBadge-1iy"] {
+  background-color: var(--color9)!important;
+  color: var(--text-alt);
+}
+
+[class*="container-"] {
+  [class*="labelRow-"] {
+    [class*="title-"] {
+      font-weight: 600;
+      color: var(--orange);
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+  [class*="note-"] {
+    [class*="colorStandard-"] {
+      color: hsla(240, 9%, 89%, 0.7);
+    }
+  }
+}
+
+[class*="contentContainer-"] {
+  [class*="scroller-"] {
+    [class*="contentWidth-"] {
+      [class*="header-"] {
+        [class*="titleContainer-"] {
+          [class*="colorHeaderPrimary-"] {
+            font-family: var(--font-headline);
+            color: var(--yellow);
+          }
+        }
+      }
+    }
+  }
+}
+
+[class*="contentRegion-"] {
+  [class*="noticeRegion-"] {
+    [class*="container-"] {
+      background-color: hsla(236, 14%, 45%, 0.4)!important;
+    }
+  }
+}
+
+[class*="header-"] {
+  [class*="warning-"] {
+    border-radius: 8px;
+    border-color: var(--purple);
+    color: hsla(240, 9%, 89%, 0.7);
+    [class*="icon-"] {
+      color: var(--purple);
+    }
+  }
+}
+
+[class*="warning-"] {
+  border-radius: 8px;
+  border-color: var(--purple);
+  color: hsla(240, 9%, 89%, 0.7);
+  [class*="icon-"] {
+    color: var(--purple);
+  }
+}
+
+[class*="keybindShortcut-"] span {
+  background-color: var(--purple);
+  border: 1px solid var(--text-muted);
+  border-radius: 6px;
+  cursor: default;
+}
+
+[class*="spinner-"] {
+  [class*="inner-"] {
+    span {
+      background-color: var(--text-alt)!important;
+    }
+  }
+}
+
+[class*="tools-"] {
+  [class*="container-"] {
+    [class*="closeButton-"] {
+      border: 3px solid;
+      border-color: var(--text-muted);
+      svg {
+        path {
+          fill: var(--purple);
+        }
+      }
+      &:hover {
+        background-color: hsla(236, 14%, 45%, 0.15);
+      }
+    }
+    [class*="keybind-"] {
+      letter-spacing: 1px;
+      font-family: var(--font-headline);
+      color: var(--purple);
+      opacity: 0.8;
+    }
+  }
+}
+
+[class*="control-"] {
+  [class*="container-"] {
+    background-color: hsla(257, 26%, 40%, 0.6)!important;
+    svg {
+      rect {
+        fill: var(--bg);
+      }
+      &[style="left: -3px;"] {
+        svg {
+          path {
+            fill: var(--color9);
+          }
+        }
+      }
+    }
+  }
+}
+
+[class*="bd-switch"] {
+  [class*="bd-switch-body"] {
+    background-color: hsla(257, 26%, 40%, 0.6)!important;
+    svg {
+      rect {
+        fill: var(--bg);
+      }
+      [class*="bd-switch-symbol"] {
+        path {
+          fill: var(--color9);
+        }
+      }
+    }
+  }
+  &[class*="bd-switch-checked"] {
+    [class*="bd-switch-symbol"] {
+      path {
+        fill: var(--green)!important;
+      }
+    }
+  }
+}
+
+[class*="sidebar-"] {
+  [class*="side-"] {
+    [class*="header-"] {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      font-family: var(--font-headline);
+      color: var(--white);
+    }
+  }
+}
+
+[class*="userInfo-"] {
+  button[class*="lookFilled-"][class*="colorBrand-"] {
+    background-color: var(--interactive-hover);
+    &:hover {
+      background-color: var(--interactive-normal)!important;
+    }
+  }
+}
+
+[class*="serverBoostTabItem-"] {
+  &[aria-selected=true] {
+    background-color: var(--purple)!important;
+    color: var(--text-alt)!important;
+    &::before {
+      color: var(--text-alt)!important;
+    }
+  }
+}
+
+[class*="sidebar-"] [class*="side-"] [aria-controls="delete-tab"] {
+  &:hover {
+    background-color: var(--color9)!important;
+    color: var(--text-alt)!important;
+    &::before {
+      color: var(--text-alt)!important;
     }
   }
 }
