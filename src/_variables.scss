@@ -1,11 +1,11 @@
 :root {
-  // fonts
+
   --font-primary: 'Inter', sans-serif;
   --font-display: 'Open Sans', sans-serif;
   --font-code: 'Source Code Pro', monospace;
   --font-headline: 'Poppins', sans-serif;
 
-  // base colors
+  /* base colors */
   --bg: #191622;
   --fg: #E1E1E6;
   --selection: #41414D;
@@ -18,7 +18,8 @@
   --purple: #988bc7;
   --red: #E96379;
   --yellow: #e7de79;
-  // ansi colors
+
+  /* ansi colors */
   --color0: #201B2D;
   --color1: #FF79C6;
   --color2: #e7de79;
@@ -36,15 +37,15 @@
   --color14: #A4FFFF;
   --color15: #F7F7FB;
   --color16: #161616;
-  // bright others
+
+  /* others */
   --temp-quotes: #e7de79;
-  --temp-property-quotes: #7159C1;
-  // others
   --line-highlight: #44475A75;
   --non-text: #FFFFFF1A;
   --white: #E1E1E6;
   --tab-drop-bg: #44475A70;
-  // ui variants
+
+  /* ui variants */
   --bg-lighter: #252131;
   --bg-light: #201B2D; // HSV (230,25.71, 27.45)
   --bg-dark: #13111B; // HSV (234.55, 25, 17.25)
