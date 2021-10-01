@@ -5,6 +5,22 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 /*
+* css snippet - Warn theme updates
+* by: _david_#0218
+*/
+#app-mount .app-2rEoOp::before {
+  content: "Your version of Omni Theme is outdated. Please download the newest version from: https://datsfilipe.github.io/better-discord/#install";
+  display: var(--version2_1, block);
+  background-color: var(--red);
+  color: var(--text-alt);
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 500;
+  text-align: center;
+  z-index: 101;
+}
+
+/*
 * css snippet - Disable Discord laggy settings animations
 * by: Tropical#4355
 */
