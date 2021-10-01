@@ -448,6 +448,20 @@ button[class*="lookFilled-"] {
   }
 }
 
+[class*="checkboxWrapper-"] {
+  &[class*="checked"] {
+    [class*="checkbox"] {
+      background-color: var(--color11)!important;
+      border-color: var(--color11)!important;
+      svg {
+        path {
+          fill: var(--text-alt);
+        }
+      }
+    }
+  }
+}
+
 [class*="bd-switch"] {
   [class*="bd-switch-body"] {
     background-color: hsla(257, 26%, 40%, 0.6)!important;
