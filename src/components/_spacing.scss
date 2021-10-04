@@ -1,5 +1,5 @@
 [class*="sidebar-"] {
-  background: var(--bg-light);
+  background: var(--background-spacing);
   padding: 10px 10px 10px 10px;
   section[class*="panels-"] {
     margin-top: 10px;
@@ -35,7 +35,7 @@
 }
 
 [class*="membersWrap-"] {
-  background-color: var(--bg-light);
+  background-color: var(--background-spacing);
   [class*="members-"] {
     margin: 10px 10px 10px 5px;
     border-radius: 12px;
@@ -50,7 +50,7 @@
 }
 
 [class*="homeWrapperNormal-"] {
-  background-color: var(--bg-light);
+  background-color: var(--background-spacing);
   [class*="scroller-"] {
     border: 1px solid var(--background-secondary);
     background-color: var(--background-primary);
@@ -60,7 +60,7 @@
 }
 
 [class*="pageContent-"] {
-  background-color: var(--bg-light);
+  background-color: var(--background-spacing);
   [class*="stageSection-"] {
     border: 1px solid var(--background-secondary);
     background-color: var(--background-primary);
@@ -68,7 +68,7 @@
     border-radius: 12px;
   }
   [class*="nowPlayingSidebar-"] {
-    background-color: var(--bg-light);
+    background-color: var(--background-spacing);
     [class*="container-"] {
       background: var(--background-secondary);
       height: 90vh;
@@ -82,7 +82,7 @@
 }
 
 [class*="chatContent-"] {
-  background-color: var(--bg-light);
+  background-color: var(--background-spacing);
   [class*="messagesWrapper-"] {
     background-color: var(--background-primary);
     padding: 4px;
@@ -101,7 +101,7 @@ form {
   div {
     >[class*="wrapper-"] {
       margin-top: 10px;
-      background-color: var(--bg-darker);
+      background-color: var(--background-secondary);
     }
   }
 }
@@ -116,7 +116,7 @@ form {
 }
 
 section[class*="title-"] {
-  background: var(--bg-light)!important;
+  background: var(--background-spacing);
   [class*="children"] {
     background-color: var(--background-secondary);
     margin: 13px 10px 0 2px;
@@ -137,7 +137,7 @@ section[class*="title-"] {
 [class*="base-"] {
   [class*="content-"] {
     section[class*="container-"] {
-      background: var(--bg-light)!important;
+      background: var(--background-spacing);
       [class*="children"] {
         background-color: var(--background-secondary-alt);
         margin: 10px 0 0 0;
@@ -158,7 +158,7 @@ section[class*="title-"] {
 }
 
 [class*="nowPlayingColumn-"] {
-  background-color: var(--bg-light);
+  background-color: var(--background-spacing);
   [class*="container-"] {
     background: var(--background-secondary);
     height: 90vh;
@@ -172,10 +172,10 @@ section[class*="title-"] {
 
 [class*="app-"] {
   [class*="layers-"] {
-    background-color: var(--bg-light);
+    background-color: var(--background-spacing);
     nav {
       &[class*="wrapper-"] {
-        background-color: var(--bg-light);
+        background-color: var(--background-spacing);
         margin: 10px 0 10px 10px;
         >ul {
           [class*="scroller-"] {
