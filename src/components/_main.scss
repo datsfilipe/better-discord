@@ -57,6 +57,7 @@
   --deprecated-card-editable-bg: var(--bg-dark);
   --deprecated-store-bg: var(--bg-darker);
   --deprecated-quickswitcher-input-background: var(--bg-light);
+  --background-spacing: var(--bg-light);
   --deprecated-quickswitcher-input-placeholder: rgba(225, 225, 230,0.3);
   --deprecated-text-input-bg: rgba(32, 27, 45,0.02);
   --deprecated-text-input-border: rgba(37, 33, 49,0.3);
@@ -79,6 +80,7 @@
   --focus-primary: var(--line-highlight);
 }
 
+
 [data-popout-root], html {
   --brand-experiment: hsla(326, 100%, 74%, 0.9);
   --brand-experiment-200: var(--text-alt);
@@ -92,10 +94,11 @@
   --brand-experiment-10a: var(--line-highlight);
   --brand-experiment-100: var(--bg);
   --brand-experiment-500: var(--line-highlight);
+  --brand-experiment-160: var(--background-tertiary);
+  --brand-experiment-530: var(--pink);
 
   /* if you find something RED, report a issue in GitHub, that's a way for me to discover where these colors are being applied */
   --brand-experiment-130: red;
-  --brand-experiment-160: red;
   --brand-experiment-230: red;
   --brand-experiment-260: red;
   --brand-experiment-300: red;
@@ -103,7 +106,6 @@
   --brand-experiment-360: red;
   --brand-experiment-430: red;
   --brand-experiment-460: red;
-  --brand-experiment-530: red;
   --brand-experiment-630: red;
   --brand-experiment-660: red;
   --brand-experiment-700: red;
