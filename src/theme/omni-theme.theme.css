@@ -1,6 +1,6 @@
 /**
  * @name Omni
- * @version 2.1.0
+ * @version 2.2
  * @description Omni theme for discord.
  * @author @dtsf#3763 (discord) / @datsfilipe (github)
  * @github: https://github.com/datsfilipe
@@ -10,5 +10,5 @@
 @import "https://datsfilipe.github.io/better-discord/src/theme/source.css";
 
 :root {
-  --version2_1_1: none;
+  --version2_2: none;
 }
