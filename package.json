@@ -15,8 +15,7 @@
     "url": "https://github.com/datsfilipe/better-discord/issues"
   },
   "scripts": {
-    "dev": "node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
-    "watch": "nodemon -e scss -x \"yarn dev\"",
+    "dev": "nodemon -e scss -x node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
     "build": "node-sass src/index.scss src/theme/source.css --output-style compressed"
   },
   "devDependencies": {
