@@ -18,9 +18,24 @@
     border-color: var(--purple);
   }
   [class*="root-"] {
-    background-color: var(--background-primary)!important;
+    background-color: var(--background-secondary-alt);
     [class*="container-"] {
       background-color: var(--background-primary)!important;
+    }
+  }
+  [class*="bodyInnerWrapper-"] {
+    [class*="root-"] {
+      background-color: var(--background-secondary-alt)!important;
+    }
+  }
+  [class*="addButtonIcon-"] {
+    path {
+      fill: var(--white);
+    }
+  }
+  [class*="actionButton-"] {
+    &[class*="highlight-"] {
+      background-color: var(--background-primary)
     }
   }
   [class*="pageWrapper-"] {
