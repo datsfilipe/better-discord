@@ -213,3 +213,39 @@ code[class*="inline"] {
   border-radius: 8px;
   background: var(--line-highlight);
 }
+
+[class*="theme-dark"], [class*="theme-light"] {
+  [class*="option-"] {
+    background-color: var(--line-highlight);
+  }
+  [class*="selected-"] {
+    border-radius: 8px;
+    background-color: var(--background-tertiary);
+    [class*="wrapper-"] {
+      background-color: var(--background-tertiary);
+    }
+  }
+  [class*="categoryHeader-"] {
+    margin-bottom: 6px;
+    background-color: var(--background-tertiary);
+    border-radius: 8px;
+    box-shadow: 1px 1px var(--interactive-hover);
+    &::after {
+      background-color: transparent;
+    }
+  }
+  [class*="autocomplete-"] {
+    background-color: var(--background-secondary);
+    [class*="autocompleteInner-"] {
+      [class*="rail-"] {
+        background-color: var(--background-primary);
+        border-radius: 0 8px 0 0;
+        border-right: 1px solid var(--line-highlight);
+        border-top: 1px solid var(--line-highlight);
+        [class*="wrapper-"] {
+          background-color: var(--background-primary);
+        }
+      }
+    }
+  }
+}
