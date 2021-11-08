@@ -31,6 +31,9 @@
   margin: 10px 10px 10px 10px;
   [class*="membersWrap-"] {
     margin: 5px;
+    [class*="members-"] {
+      margin-bottom: 12px;
+    }
   }
 }
 
@@ -122,6 +125,13 @@ form {
     padding: 3px 0;
     border-radius: 15px;
   }
+}
+
+.wrapper-39oAo3 {
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 6px;
 }
 
 .form-2fGMdU {
