@@ -24,6 +24,10 @@
   }
 }
 
+[class*="scrollerSpacer-"] {
+  height: 10px;
+}
+
 [class*="reactionCount-"] {
   --interactive-normal: hsla(240, 9%, 89%, 0.5);
   --interactive-hover: hsla(240, 9%, 89%, 0.7);

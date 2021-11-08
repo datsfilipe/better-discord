@@ -127,6 +127,16 @@ form {
   }
 }
 
+[class*="typing-"] {
+  position: relative;
+  font-size: .8rem;
+  text-align: center;
+  margin: -4px 0 0 0;
+  padding: 0 5px 5px 0;
+  height: 14px;
+  left: 0;
+}
+
 .wrapper-39oAo3 {
   border-radius: 12px;
   width: 100%;
@@ -135,6 +145,9 @@ form {
 }
 
 .form-2fGMdU {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 0;
 }
 
