@@ -11,6 +11,16 @@
         &::before {
           color: hsla(253, 35%, 66%, 0.8);
         }
+        [class*="background-"] {
+          background-color: var(--background-modifier-selected);
+        }
+        [class*="premiumLabel-"] {
+          font-weight: 500;
+          color: var(--color4);
+          [class*="selectedIcon-"] {
+            fill: var(--brand-experiment);
+          }
+        }
       }
     }
   }
@@ -18,16 +28,6 @@
 
 [class*="attachButtonPlay-"] {
   fill: var(--color11);
-}
-
-[class*="premiumTabItem-"] {
-  &[aria-selected=true] {
-    background-color: var(--text-muted)!important;
-    color: var(--text-alt)!important;
-    &::before {
-      color: var(--text-alt)!important;
-    }
-  }
 }
 
 [class*="cardText-"] {

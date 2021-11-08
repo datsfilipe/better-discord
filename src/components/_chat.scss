@@ -215,17 +215,17 @@ code[class*="inline"] {
 }
 
 [class*="theme-dark"], [class*="theme-light"] {
-  [class*="option-"] {
+  [class*="option-1B5ZV8"] {
     background-color: var(--line-highlight);
   }
-  [class*="selected-"] {
+  [class*="selected-1Tbx07"] {
     border-radius: 8px;
-    background-color: var(--background-tertiary);
+    background-color: var(--line-highlight);
     [class*="wrapper-"] {
-      background-color: var(--background-tertiary);
+      background-color: transparent;
     }
   }
-  [class*="categoryHeader-"] {
+  [class*="categoryHeader-O1zU94"] {
     margin-bottom: 6px;
     background-color: var(--background-tertiary);
     border-radius: 8px;
@@ -234,16 +234,19 @@ code[class*="inline"] {
       background-color: transparent;
     }
   }
-  [class*="autocomplete-"] {
+  [class*="outerWrapper-3-llkA"] {
+    box-shadow: none;
+    border: 1px solid var(--purple);
+    border-radius: 12px;
+  }
+  [class*="autocomplete-1vrmpx"] {
     background-color: var(--background-secondary);
     [class*="autocompleteInner-"] {
       [class*="rail-"] {
-        background-color: var(--background-primary);
+        background-color: var(--background-tertiary);
         border-radius: 0 8px 0 0;
-        border-right: 1px solid var(--line-highlight);
-        border-top: 1px solid var(--line-highlight);
         [class*="wrapper-"] {
-          background-color: var(--background-primary);
+          background-color: transparent;
         }
       }
     }

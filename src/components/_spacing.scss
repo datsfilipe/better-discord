@@ -21,6 +21,19 @@
   }
 }
 
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+  background-color: var(--background-spacing);
+}
+
+[class*="container-2wlB3z"] {
+  height: 97.4%;
+  border-radius: 12px;
+  margin: 10px 10px 10px 10px;
+  [class*="membersWrap-"] {
+    margin: 5px;
+  }
+}
+
 [class*="sidebar-"] [class*="layout-"] {
   margin-right: 6px;
   margin-left: 0px;
@@ -32,14 +45,6 @@
 
 [class*="privateChannels-"] {
   border-radius: 12px;
-}
-
-[class*="membersWrap-"] {
-  background-color: var(--background-spacing);
-  [class*="members-"] {
-    margin: 10px 10px 10px 5px;
-    border-radius: 12px;
-  }
 }
 
 ::-webkit-scrollbar-track {
@@ -54,7 +59,7 @@
   [class*="scroller-"] {
     border: 1px solid var(--background-secondary);
     background-color: var(--background-primary);
-    margin: 16px 16px 16px 10px;
+    margin: 10px 10px 10px 0;
     border-radius: 12px;
   }
 }
@@ -86,9 +91,9 @@
   [class*="messagesWrapper-"] {
     background-color: var(--background-primary);
     padding: 4px;
-    margin: 10px 10px 13px 10px;
+    margin: 10px 0 10px 0;
     border: 1px solid var(--background-secondary);
-    border-radius: 15px!important;
+    border-radius: 12px!important;
   }
   [class*="form-"] {
     &::before {
@@ -108,19 +113,28 @@ form {
 
 [class*="channelTextArea-"] {
   background-color: var(--background-secondary-alt);
-  border-radius: 15px;
+  border-radius: 12px;
+  height: 52px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 6px;
   [class*="scrollableContainer-"] {
-    margin-top: 10px;
+    padding: 3px 0;
     border-radius: 15px;
   }
 }
 
-section[class*="title-"] {
+.form-2fGMdU {
+  padding: 0;
+}
+
+section[class*="headerBar-"] {
   background: var(--background-spacing);
+  padding: 0 10px 0 0;
   [class*="children"] {
     background-color: var(--background-secondary);
     margin: 13px 10px 0 2px;
-    border-radius: 12px;
+    border-radius: 12px!important;
     padding: .6rem;
     &::after {
       display: none;
@@ -138,6 +152,7 @@ section[class*="title-"] {
   [class*="content-"] {
     section[class*="container-"] {
       background: var(--background-spacing);
+      padding: 0 10px 0 0;
       [class*="children"] {
         background-color: var(--background-secondary-alt);
         margin: 10px 0 0 0;
@@ -160,27 +175,27 @@ section[class*="title-"] {
 [class*="nowPlayingColumn-"] {
   background-color: var(--background-spacing);
   [class*="container-"] {
-    background: var(--background-secondary);
-    height: 90vh;
+    background: var(--background-primary);
+    height: 97.4%;
     margin: 10px;
     border-radius: 12px;
     [class*="emptyCard-"] {
-      background: var(--background-secondary);
+      background: transparent;
     }
   }
 }
 
 [class*="app-"] {
   [class*="layers-"] {
-    background-color: var(--background-spacing);
     nav {
       &[class*="wrapper-"] {
-        background-color: var(--background-spacing);
-        margin: 10px 0 10px 10px;
-        >ul {
-          [class*="scroller-"] {
-            border-radius: 12px;
-            background: var(--background-secondary-alt);
+        &[class*="guilds-"] {
+          margin: 10px 0 10px 10px;
+          >ul {
+            [class*="scroller-"] {
+              border-radius: 12px;
+              background: var(--background-secondary-alt);
+            }
           }
         }
       }
