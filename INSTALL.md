@@ -3,6 +3,10 @@
 
 ### Install manually
 
+### Download from BetterDiscord
+
+You can simply download the theme here: <https://betterdiscord.app/Download?id=482>
+
 #### Download the repo
 
 Download using the [GitHub .zip download](https://github.com/datsfilipe/better-discord/archive/refs/heads/main.zip) option and unzip them.
