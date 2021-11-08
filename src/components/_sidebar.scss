@@ -251,6 +251,20 @@ a[class*="channel-"] {
   }
 }
 
+[class*="unreadBottom-"] {
+  [class*="unreadBar-"] {
+    background-color: var(--red);
+    color: var(--text-alt);
+  }
+}
+
+[class*="unreadTop-"] {
+  [class*="unreadBar-"] {
+    background-color: var(--red);
+    color: var(--text-alt);
+  }
+}
+
 [class*="botTag-"] {
   &[class*="botTagRegular-"] {
     background-color: var(--purple);
