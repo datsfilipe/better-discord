@@ -220,7 +220,7 @@ section[class*="headerBar-"] {
   background-color: var(--background-spacing);
   [class*="container-"] {
     background: var(--background-primary);
-    height: 97.4%;
+    height: calc(100% - 20px);
     margin: 10px;
     border-radius: 12px;
     [class*="emptyCard-"] {
