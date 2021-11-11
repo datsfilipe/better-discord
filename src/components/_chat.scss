@@ -156,24 +156,30 @@
 }
 
 [class*="newMessagesBar-"] {
-  margin-top: 8px;
+  margin-top: 14px;
   border-radius: 15px;
   height: 30px;
   background-color: hsla(236, 14%, 45%, 0.9);
+  &[class*="barBase-"] {
+    left: 10px;
+  }
   button {
     color: var(--color15)!important;
   }
 }
 
 [class*="jumpToPresentBar-"] {
-  margin-bottom: 4px;
+  margin-bottom: 14px;
   padding: 2px;
   position: absolute;
   cursor: auto;
   border-radius: 15px;
   background-color: hsla(236, 14%, 45%, 0.9);
+  &[class*="barBase-"] {
+    left: 10px;
+  }
   &:active {
-    margin-bottom: 4px;
+    margin-bottom: 14px;
     padding: 2px;
     position: absolute;
   }
