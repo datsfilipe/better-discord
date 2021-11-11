@@ -92,11 +92,12 @@
 [class*="chatContent-"] {
   background-color: var(--background-spacing);
   [class*="messagesWrapper-"] {
-    background-color: var(--background-primary);
     padding: 4px;
-    margin: 10px 0 10px 0;
-    border: 1px solid var(--background-secondary);
-    border-radius: 12px!important;
+    [class*="scroller-"] {
+      background-color: var(--background-primary);
+      margin: 10px 10px 10px 0;
+      border-radius: 12px!important;
+    }
   }
   [class*="form-"] {
     &::before {
