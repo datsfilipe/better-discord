@@ -171,27 +171,18 @@ a[class*="channel-"] {
   }
 }
 
-[class*="childWrapper-"] {
-  background-color: var(--line-highlight);
-  .homeIcon-FuNwkv {
-    path {
-      fill: var(--interactive-normal);
-    }
-  }
-}
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-  background-color: var(--line-highlight)!important;
-  .homeIcon-FuNwkv {
-    opacity: 0.9;
-    path {
-      fill: var(--interactive-normal);
+[class*="wrapper-"] {
+  &[aria-label*="Home"] {
+    [class*="childWrapper-"] {
+      background-color: var(--line-highlight);
+      color: var(--interactive-normal);
     }
   }
 }
 
 [class*="circleIconButton-"] {
-  color: var(--interactive-normal);
   background-color: var(--line-highlight);
+  color: var(--interactive-normal);
   &[class*="selected-"] {
     color: var(--interactive-normal);
     background-color: var(--line-highlight);
