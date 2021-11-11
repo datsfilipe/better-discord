@@ -9,6 +9,23 @@
       background-color: var(--line-highlight);
     }
   }
+  .streamPreview-2-WUWT {
+    background-color: var(--background-secondary);
+    border-radius: 12px;
+    border: 1px solid var(--line-highlight);
+  }
+  .watchButton-2SbJEo {
+    border-color: var(--line-highlight);
+    color: var(--white);
+  }
+  div[class*="protip-3-"] {
+    h3 {
+      color: var(--text-muted)!important;
+    }
+    div[class*="colorStandard-"] {
+      color: var(--white)!important;
+    }
+  }
   .outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: var(--line-highlight);
   }
