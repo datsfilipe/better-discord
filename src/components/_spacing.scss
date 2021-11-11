@@ -116,7 +116,7 @@ form {
 }
 
 [class*="channelTextArea-"] {
-  background-color: var(--background-secondary-alt);
+  background-color: transparent;
   border-radius: 12px;
   height: 52px;
   width: 100%;
@@ -125,6 +125,12 @@ form {
   [class*="scrollableContainer-"] {
     padding: 3px 0;
     border-radius: 15px;
+    background-color: var(--background-secondary-alt);
+  }
+  &[class*="channelTextAreaDisabled-"] {
+    [class*="scrollableContainer-"] {
+      opacity: .8;
+    }
   }
 }
 
