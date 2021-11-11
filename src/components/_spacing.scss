@@ -26,9 +26,9 @@
 }
 
 [class*="container-2wlB3z"] {
-  height: 97.4%;
+  height: calc(100% - 20px);
   border-radius: 12px;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 0;
   [class*="membersWrap-"] {
     margin: 5px;
     [class*="members-"] {
