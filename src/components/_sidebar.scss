@@ -194,6 +194,7 @@ a[class*="channel-"] {
 }
 [class*="expandedFolderBackground-"] {
   background-color: var(--line-highlight);
+  filter: brightness(0.8);
 }
 
 [class*="actionIcon-"] {
