@@ -9,6 +9,19 @@
       background-color: var(--line-highlight);
     }
   }
+  .subscribeTooltipWrapper-1JoUuw {
+    background-color: var(--background-tertiary);
+  }
+  [class*="searchBox-"] {
+    background-color: var(--background-tertiary);
+  }
+  [class*="colorStandard-2KCXvj"] {
+    &[class*="size16-1P40sf"] {
+      &[class*="checkboxText-20IXco"] {
+        background: transparent!important;
+      }
+    }
+  }
   .streamPreview-2-WUWT {
     background-color: var(--background-secondary);
     border-radius: 12px;
