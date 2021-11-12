@@ -43,6 +43,17 @@
   }
 }
 
+[class*="mention"] {
+  &[class*="wrapper-3WhCwL"] {
+    &[class*="mention"] {
+      &[class*="interactive"] {
+        background-color: var(--brand-experiment-30a);
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
 [class*="message-"] {
   border-radius: 0 8px 8px 0;
   margin: 0 8px 0 0;
