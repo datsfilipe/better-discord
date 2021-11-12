@@ -56,6 +56,12 @@
       }
     }
   }
+  [class*="scroller-"] {
+    background-color: var(--background-secondary-alt);
+  }
+  [class*="reactors-"] {
+    background-color: var(--background-tertiary);
+  }
 }
 
 [class*="connectedAccount-"] {
