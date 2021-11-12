@@ -170,9 +170,9 @@
 }
 
 [class*="newMessagesBar-"] {
-  margin-top: 14px;
-  border-radius: 15px;
-  height: 30px;
+  margin-top: 18px;
+  border-radius: 12px;
+  padding: 2px;
   background-color: hsla(236, 14%, 45%, 0.9);
   &[class*="barBase-"] {
     left: 10px;
@@ -183,12 +183,12 @@
 }
 
 [class*="jumpToPresentBar-"] {
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   padding: 2px;
   position: absolute;
   cursor: auto;
-  border-radius: 15px;
-  background-color: hsla(236, 14%, 45%, 0.9);
+  border-radius: 12px;
+  background-color: hsla(236, 14%, 45%, 0.8);
   &[class*="barBase-"] {
     left: 10px;
   }
