@@ -106,13 +106,9 @@
   }
 }
 
-form {
-  div {
-    >[class*="wrapper-"] {
-      margin-top: 10px;
-      background-color: var(--background-secondary);
-    }
-  }
+[class*="notice-2X5hT5"] {
+  border-radius: 8px;
+  margin: 10px 10px 0 10px;
 }
 
 [class*="channelTextArea-"] {
