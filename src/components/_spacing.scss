@@ -125,9 +125,8 @@
     }
   }
   [class*="scrollableContainer-"] {
-    padding-top: 6px;
+    padding: 5px 0 5px 0;
     border-radius: 12px;
-    height: 48px;
     background-color: var(--background-secondary-alt);
     &[class*="hasConnectedBar-"] {
       border-radius: 0px 0px 12px 12px;
@@ -141,23 +140,25 @@
 }
 
 [class*="typing-"] {
+  grid-row: 1;
   position: relative;
-  font-size: .8rem;
+  font-size: .9rem;
+  font-family: var(--font-display);
   text-align: center;
-  margin: 6px 0 0 0;
+  margin: 6px 6px -4px 4px;
   height: 14px;
   left: 0;
-  color: var(--text-muted);
+  color: var(--interactive-hover);
 }
 
 .dots-3Bkt3k.themed-IQiCm3 {
-  color: var(--text-muted);
+  color: var(--interactive-hover);
 }
 
 .slowModeIcon-1BPDC_ {
   g {
     path {
-      fill: var(--text-muted);
+      fill: var(--interactive-hover);
     }
   }
 }
@@ -170,7 +171,9 @@
 }
 
 .form-2fGMdU {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
@@ -181,6 +184,12 @@
       margin: 9px 0 0 0;
       background-color: var(--background-secondary);
     }
+  }
+  [aria-controls*="popout_8624"] {
+    grid-row: 2;
+  }
+  .cooldownWrapper-3joyFc {
+    color: var(--interactive-hover)!important;
   }
 }
 
