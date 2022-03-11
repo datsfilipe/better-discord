@@ -34,12 +34,10 @@ All instructions can be found at [INSTALL.md](./INSTALL.md).
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/getomni/template/graphs/contributors).
 
-| [![Filipe Lima](https://github.com/datsfilipe.png?size=120)](https://github.com/datsfilipe) |
+| [![Filipe Lima](https://github.com/datsfilipe.png?size=120)](https://github.com/datsfilipe) || [![Iris Nkrichronos](https://github.com/nkrichronos.png?size=120)](https://github.com/nkrichronos) |
 | ------------------------------------------------------------------------------------------------ |
-| [Filipe Lima](https://github.com/datsfilipe)                                                   |
-| [![Iris Nkrichronos](https://github.com/nkrichronos.png?size=120)](https://github.com/datsfilipe) |
-| ------------------------------------------------------------------------------------------------ |
-| [Iris Nkrichronos](https://github.com/nkrichronos)   
+| [Filipe Lima](https://github.com/datsfilipe)                                                   || [Iris Nkrichronos](https://github.com/nkrichronos)  
+ 
 
 ## License
 
