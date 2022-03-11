@@ -38,6 +38,11 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | [Filipe Lima](https://github.com/datsfilipe)                                             | [Iris Nkrichronos](https://github.com/Nkrichronos)                                                 |
 
+## Roadmap
+
+- [ ] Fix spacing issues
+- [ ] Implement a custom font
+- [ ] ???
 
 ## License
 
