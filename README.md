@@ -37,7 +37,6 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 | [![Filipe Lima](https://github.com/datsfilipe.png?size=120)](https://github.com/datsfilipe) |
 | ------------------------------------------------------------------------------------------------ |
 | [Filipe Lima](https://github.com/datsfilipe)                                                   |
-
 | [![Iris Nkrichronos](https://github.com/nkrichronos.png?size=120)](https://github.com/datsfilipe) |
 | ------------------------------------------------------------------------------------------------ |
 | [Iris Nkrichronos](https://github.com/nkrichronos)   
