@@ -1,16 +1,3 @@
-// import fonts
-@font-face {
-    font-family: 'product_sansregular';
-    src: url('https://github.com/nkrichronos/omnicord/raw/main/src/assets/font/productsans-regular-webfont.woff2') format('woff2'), url('https://github.com/nkrichronos/omnicord/raw/main/src/assets/font/productsans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-@font-face {
-   font-family: 'ckc_mono';
-   src: url('https://github.com/nkrichronos/omnicord/raw/main/src/assets/font/caskaydia_cove_nerd_font_complete_mono-webfont.woff2') format('woff2'), url('https://github.com/nkrichronos/omnicord/raw/main/src/assets/font/caskaydia_cove_nerd_font_complete_mono-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-}
 // import the main files, including variables
 @import './variables';
 @import './components/main';
