@@ -33,11 +33,12 @@ All instructions can be found at [INSTALL.md](./INSTALL.md).
 
 ## Roadmap
 
-- [ ] Fix spacing issues
-- [ ] Implement a custom font
-- [ ] Map all links to this fork until PR is submitted
-- [ ] ???
+- [x] Fix spacing issues
+- [x] Fix highlighted text contrast
 
+## Issues
+
+Please feel free to report any issues [here.](https://github.com/nkrichronos/omnicord/issues)
 
 ## Team
 
