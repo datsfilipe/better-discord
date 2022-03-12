@@ -1,6 +1,16 @@
-// import google fonts
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap');
-
+// import fonts
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('./assets/font/productsans-regular-webfont.woff2') format('woff2'), url('./assets/font/productsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+   font-family: 'ckc_mono';
+   src: url('./assets/font/caskaydia_cove_nerd_font_complete_mono-webfont.woff2') format('woff2'), url('./assets/font/caskaydia_cove_nerd_font_complete_mono-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
 // import the main files, including variables
 @import './variables';
 @import './components/main';
@@ -11,6 +21,7 @@
 @import './components/popout';
 @import './components/theme';
 @import './components/snippets';
+@import './components/spacing';
 @import './components/sidebar';
 @import './components/home';
 @import './components/chat';

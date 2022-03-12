@@ -1,18 +1,19 @@
 {
-  "name": "discord-omni",
-  "author": "datsfilipe <datsfilipe@gmail.com>",
+  "name": "omnicord",
+  "author": "nkrichronos <Ir1s_S@outlook.com>",
   "license": "MIT",
-  "version": "2.7.3",
-  "description": "A Omni Dark theme for BetterDiscord.",
+  "version": "2.8.0",
+  "description": "The Omni theme for BetterDiscord.",
   "maintainers": [
-    "Filipe Lima <datsfilipe@gmail.com>"
+    "Filipe Lima <datsfilipe@gmail.com>",
+    "Iris Nkrichronos <Ir1s_S@outlook.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/datsfilipe/better-discord.git"
+    "url": "https://github.com/nkrichronos/omnicord.git"
   },
   "bugs": {
-    "url": "https://github.com/datsfilipe/better-discord/issues"
+    "url": "https://github.com/nkrichronos/omnicord/issues"
   },
   "scripts": {
     "dev": "nodemon -e scss -x node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
