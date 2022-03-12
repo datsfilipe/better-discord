@@ -7,7 +7,7 @@
  * @website https://github.com/nkrichronos/omnicord/
 */
 
-@import "https://nkrichronos/omnicord/src/theme/source.css";
+@import "https://raw.githack.com/nkrichronos/omnicord/main/src/theme/source.css";
 
 :root {
   --version2-8-0: none;
